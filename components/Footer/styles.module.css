@@ -1,0 +1,15 @@
+.wrapper {
+  background-color: rgba(116, 113, 113, 1);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 30px !important; */
+  width: 100vw !important;
+  /* padding: 10px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 300;
+  margin-top: 50px !important;
+  line-height: 33.5px;
+}

@@ -1,0 +1,15 @@
+.wrapper p {
+  font-weight: 300;
+  text-align: center;
+}
+
+.wrapper {
+  width: fit-content;
+  margin: 30px;
+  max-width: 200px;
+}
+
+.imageDiv {
+  border: 0px solid #ffff0000;
+  border-radius: 50%;
+}

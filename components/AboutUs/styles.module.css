@@ -1,0 +1,38 @@
+.wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 80px;
+}
+
+.wrapper h1 {
+  margin-left: 0px;
+  font-size: 40px;
+}
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.leftContainer {
+  width: 50%;
+}
+
+.leftContainer p {
+  margin: 0;
+  margin-right: 30px;
+  line-height: 33.5px;
+  font-weight: 300;
+}
+
+.teamFlex {
+  margin-top: 50px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -18,10 +18,10 @@ export default function Home() {
       <IntroComponent />
       <AboutUs />
       <MenuComponent />
-      {/* <Gallery /> */}
+      <Gallery />
       <Testimonials />
       <Reservation />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );

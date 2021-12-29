@@ -42,7 +42,6 @@ function AboutUs() {
       <div className={styles.onDesktop}>
         <div className={styles.teamFlex}>
             <TeamCard data={AboutSection.person1} />
-            <TeamCard data={AboutSection.person2} />
             <TeamCard data={AboutSection.person3} />
         </div>
       </div>
@@ -66,7 +65,6 @@ function AboutUs() {
         >
           <TeamCard data={AboutSection.person1} />
           <TeamCard data={AboutSection.person2} />
-          <TeamCard data={AboutSection.person3} />
         </Carousel>
       </div>
 

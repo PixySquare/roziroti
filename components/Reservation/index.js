@@ -4,6 +4,7 @@ export default function Reservation() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.heading}>Reservation</div>
+      <p className={styles.text2}> Lorem ipsum Loremm ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum</p>
       <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
         <input
           type="text"

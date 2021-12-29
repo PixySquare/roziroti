@@ -74,6 +74,18 @@
 }
 
 
+
+.text2{
+  width:60% !important;
+  text-align:center;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #e87928;
+
+}
+
+
+
 @media (max-width: 800px){
   .heading{
     font-size:3rem; 
@@ -89,10 +101,19 @@
 
 
   
-.form button {
+  .form button {
+    width: 60%;
+  }
 
-  width: 60%;
-}
+
+  .text2{
+    width:100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-self: center !important;
+    display: none;
+
+  }
 
   
 

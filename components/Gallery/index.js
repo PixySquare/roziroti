@@ -4,7 +4,7 @@ import Image from "next/image";
 function Gallery() {
   return (
     <div className={styles.container}>
-      <h1 style={{ fontSize: 40 }}>Gallery</h1>
+      <div className={styles.heading}>Gallery</div>
       <div className={styles.gallery}>
         <figure className="gallery__item gallery__item--1">
           <Image src={img} alt="Gallery image 1" className="gallery__img" />

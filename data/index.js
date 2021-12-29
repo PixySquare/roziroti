@@ -1,3 +1,7 @@
+// Logo
+import L from "../public/assets/images/logoBig.jpg";
+export const LogoBig = L;
+
 // Social Icons
 import W from "../public/svg/social/whatsapp.svg";
 export const Whatsapp = W;
@@ -76,6 +80,24 @@ export const MenuSection = {
     },
   ],
 
+}
+
+
+// Footer
+
+export const FooterSection = {
+  logo: LogoBig,
+  locationText:"sdf",
+  locationSrc:"sd",
+  mail:"sknjd@gmail.com",
+  owner:{
+    name:"sdf",
+    mobile:"3456"
+  },
+  manager:{
+    name:"fsd",
+    mobile:"354"
+  },
 }
 
 
@@ -170,3 +192,4 @@ export const Testimonials = [
     Writer: "Devi Sri Charan",
   },
 ];
+// #D9CABD

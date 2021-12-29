@@ -2,6 +2,12 @@
 import L from "../public/assets/images/logoBig.jpg";
 export const LogoBig = L;
 
+// Divider
+import D from "../public/svg/divider.svg";
+export const Divider = D;
+
+
+
 // Social Icons
 import W from "../public/svg/social/whatsapp.svg";
 export const Whatsapp = W;
@@ -99,6 +105,56 @@ export const FooterSection = {
     mobile:"354"
   },
 }
+
+
+// Menu Page
+
+export const AllMenu = [
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+  {
+    image:Food1,
+    name:"Food Name",
+  },
+]
+
+
+
+
 
 
 

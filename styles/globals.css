@@ -102,6 +102,11 @@ figure {
   display: none;
 }
 
+.Divider{
+  display: flex;
+  justify-content: center;
+}
+
 
 @media (max-width: 1055px) {
   .onMobile{

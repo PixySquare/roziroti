@@ -3,41 +3,42 @@ import styles from "./styles.module.css";
 export default function Reservation() {
   return (
     <div className={styles.wrapper}>
-      <h1>Reservation</h1>
-      <form className={styles.form}>
+      <div className={styles.heading}>Reservation</div>
+      <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
         <input
           type="text"
           placeholder="Name"
-          // value={name}
-          // onChange={(e) => setName(e.target.value)}
+          name="Name"
         />
         <div className={styles.flexForm}>
           <input
             type="text"
-            placeholder="Your Name"
-            // value={name}
-            // onChange={(e) => setName(e.target.value)}
+            placeholder="Date: 23rd December, 2021"
+            name="Name"
+
           />
           <input
             type="text"
-            placeholder="Your Name"
+            placeholder="Time Range: 6pm to 10pm"
+            name="Name"
+
             style={{ marginLeft: "10px !import" }}
-            // value={name}
-            // onChange={(e) => setName(e.target.value)}
           />
         </div>
         <input
           type="text"
-          placeholder="Occassion"
-          // value={email}
-          // onChange={(e) => setEmail(e.target.value)}
+          placeholder="What are you celebrating?"
+          name="Occassion"
+
         />
         <input
-          type="number"
-          placeholder="Your Mobile Number"
-          // value={mobile}
-          // onChange={(e) => setMobile(e.target.value)}
+          type="text"
+          placeholder="Your Contact information"
+          name="Mobile Number"
         />
+
+        <p className={styles.text}> We&apos;ll surely contact you shortly after you have submitted</p>
+        
         <button>Submit</button>
       </form>
     </div>

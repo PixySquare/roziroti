@@ -1,6 +1,8 @@
 .wrapper p {
   font-weight: 300;
   text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .wrapper {

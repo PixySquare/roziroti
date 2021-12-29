@@ -28,12 +28,12 @@ export default class index extends Component {
   render() {
     return (
       <div
-        style={{ marginBottom: "70", scrollMarginTop: 100, marginTop: 50 }}
+        style={{ marginBottom: "70", scrollMarginTop: 100, marginTop: 50, color: "#1F3A24" }}
         id="testimony"
       >
-        <h1 className={styles.h1} style={{ textAlign: "center" }}>
+        <div className={styles.heading} style={{ textAlign: "center" }}>
           TESTIMONIALS
-        </h1>
+        </div>
 
         <br />
         <Carousel
@@ -45,12 +45,9 @@ export default class index extends Component {
           autoPlaySpeed={3000}
           keyBoardControl={true}
         >
-          {Testimonials.map((item) => {
+          {Testimonials.map((item,index) => {
             return (
-              // eslint-disable-next-line react/jsx-key
-              <div className={styles.testimonialWrapper}>
-                {/* <span>{item.Rating}</span>
-                                <br /> */}
+              <div className={styles.testimonialWrapper} key={index}>
                 <span
                   className={styles.text}
                   style={{ opacity: 1.0, textAlign: "center", width: "100%" }}
@@ -63,7 +60,7 @@ export default class index extends Component {
                     opacity: 0.8,
                     float: "right",
                     textAlign: "right",
-                    width: "90%",
+                    width: "100%",
                   }}
                 >
                   {" "}

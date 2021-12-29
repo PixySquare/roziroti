@@ -14,6 +14,14 @@
   margin-top: 50px;
 }
 
+
+.heading{
+  font-size:3.5rem;
+  text-align:left;
+  margin-bottom:2rem;
+}
+
+
 @media (max-width: 800px) {
   .testimonialWrapper {
     width: 80% !important;
@@ -24,8 +32,9 @@
     padding-left: 0px !important;
   }
 
-  .h1 {
-    font-size: 22px;
+  .heading{
+    font-size:2rem;
+    
   }
 
   .text {

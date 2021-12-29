@@ -91,3 +91,25 @@ figure {
   grid-row-start: 6;
   grid-row-end: 9;
 }
+
+
+.imageDiv{
+  border-radius: 10px;
+}
+
+
+.onMobile{
+  display: none;
+}
+
+
+@media (max-width: 1055px) {
+  .onMobile{
+    display: block;
+  }
+
+  .onDesktop{
+    display: none;
+  }
+
+}

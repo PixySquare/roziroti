@@ -1,13 +1,11 @@
 import styles from "./styles.module.css";
 import Image from "next/image";
-import person from "../../public/assets/images/person.png";
 
-function TeamCard() {
+function TeamCard(props) {
   return (
     <div className={styles.wrapper}>
-      <Image src={person} />
-      <p>Name Surname</p>
-      <p>Position</p>
+      <Image src={props.data.image} alt={props.data.name}  className="imageDiv"/>
+      <p>{props.data.name}</p>
     </div>
   );
 }

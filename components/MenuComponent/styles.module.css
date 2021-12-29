@@ -2,6 +2,17 @@
   background-color: #fff6b8;
   padding: 30px;
   margin-top: 50px;
+  color: #1F3A24 !important;
+}
+
+.heading{
+  font-size:4rem;
+}
+
+.center{
+  width:70%;
+  margin-left: 15% !important;
+  margin-right: 15% !important;
 }
 
 .upperInfo {
@@ -20,6 +31,7 @@
 
 .btn {
   border: 2px solid #e87928;
+  border-radius: 7px;
   color: #e87928;
   width: max-content;
   min-width: 250px;
@@ -47,4 +59,16 @@
   color: #fff6b8 !important;
   background-position: left !important;
   border-color: #e87928 !important;
+}
+
+
+
+@media (max-width: 768px){
+
+  .heading{
+    font-size:3rem;
+  }
+
+  
+
 }

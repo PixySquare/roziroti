@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Icon from "../../public/assets/images/logo.png";
-import SvgIcon from "../../common/SvgIcon";
 import { Whatsapp, Instagram, Facebook } from "../../data";
 
 
@@ -228,17 +227,17 @@ function Header() {
             <div className={styles.socials}>
               <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
+                  <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link>
               <Link href={"https://www.facebook.com"}>
                 <a target="_blank">
-                  <Image className={styles.image} src={Facebook} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
+                  <Image className={styles.image} src={Facebook} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link>
               <Link href={"https://www.whatsapp.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
+                  <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link>
             </div>

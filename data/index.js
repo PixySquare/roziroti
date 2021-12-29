@@ -9,6 +9,75 @@ import I from "../public/svg/social/instagram.svg";
 export const Instagram = I;
 
 
+// Food Items
+
+import Food12 from "../public/assets/images/food.png";
+export const Food1 = Food12;
+
+
+
+
+
+// About us
+
+import A from "../public/assets/images/about.png";
+import P1 from "../public/assets/images/person.png";
+import P2 from "../public/assets/images/person.png";
+import P3 from "../public/assets/images/person.png";
+export const AboutSection = {
+  heading: "About us",
+  text: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  image: A,
+  imageAlt: "About rozi roti",
+  person1:{
+    image:P1,
+    name:"Name Surname",
+  },
+  person2:{
+    image:P2,
+    name:"Name Surname",
+  },
+  person3:{
+    image:P3,
+    name:"Name Surname",
+  },
+}
+
+
+// Menu Component
+
+export const MenuSection = {
+  heading:"Our Menu",
+  text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  foodItems: [
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+  ],
+
+}
+
 
 
 export const Testimonials = [

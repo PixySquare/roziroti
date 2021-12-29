@@ -2,13 +2,13 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import food from "../../public/assets/images/food.png";
 
-function MenuItem() {
+function MenuItem(props) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageDiv}>
-        <Image src={food} />
+        <Image src={props.data.image} alt={props.data.name} />
       </div>
-      <p>Dal Makhni</p>
+      <p>{props.data.name}</p>
     </div>
   );
 }

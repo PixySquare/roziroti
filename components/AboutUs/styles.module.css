@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .wrapper h1 {
@@ -35,4 +35,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1055px) {
+  .flexDiv {
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .leftContainer p {
+    margin: 0;
+    margin-bottom: 20px;
+    /* margin-right: 0px; */
+  }
+  .teamFlex {
+    flex-direction: column;
+  }
 }

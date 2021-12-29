@@ -28,6 +28,12 @@
 .brand:hover {
   color: var(--main-color);
 }
+.linkDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 .collapse {
   flex: 1;
@@ -63,7 +69,7 @@
   height: 2px;
   width: 0;
   position: absolute;
-  background: #fff;
+  background: #000;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
@@ -83,7 +89,7 @@
 .bar3 {
   width: 30px;
   height: 2.5px;
-  background-color: #fff;
+  background-color: #000;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -91,7 +97,7 @@
 .change1 {
   width: 30px;
   height: 2.5px;
-  background-color: #fff;
+  background-color: #000;
   transition: 0.4s;
   margin: 6px 0px;
   -webkit-transform: rotate(-45deg);
@@ -106,7 +112,7 @@
 .change3 {
   width: 30px;
   height: 2.5px;
-  background-color: #fff;
+  background-color: #000;
   transition: 0.4s;
   margin: 6px 0px;
   -webkit-transform: rotate(45deg);
@@ -158,5 +164,8 @@
     margin-right: auto !important;
     margin-left: auto !important ;
     /* width:120px; */
+  }
+  .linkDiv {
+    flex-direction: column;
   }
 }

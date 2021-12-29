@@ -8,3 +8,9 @@
   text-align: center;
   /* line-height: 33.5px; */
 }
+
+@media (max-width: 1055px) {
+  .wrapper {
+    width: 80%;
+  }
+}

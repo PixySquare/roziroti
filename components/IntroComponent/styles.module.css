@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100vw;
+  /* height: 50vh; */
+  object-fit: fill;
+  margin-top: 70px;
+  display: block;
+}
+
+.wrapper span {
+  height: -webkit-fill-available !important;
+  min-width: -webkit-fill-available !important;
+}
+
+.iconsColumn {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  top: -150px;
+  left: 95vw;
+  padding-right: 30px;
+  position: relative;
+}
+
+@media (max-width: 1055px) {
+  .iconsColumn {
+    left: 85vw;
+  }
+  .wrapper {
+    margin-top: 40px !important;
+  }
+}

@@ -8,6 +8,8 @@ import styles from "../styles/Home.module.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import IntroComponent from "../components/IntroComponent";
+import Testimonials from "../components/Testimonials";
+import Reservation from "../components/Reservation";
 
 export default function Home() {
   return (
@@ -16,7 +18,9 @@ export default function Home() {
       <IntroComponent />
       <AboutUs />
       <MenuComponent />
-      <Gallery />
+      {/* <Gallery /> */}
+      <Testimonials />
+      <Reservation />
       <ContactUs />
       <Footer />
     </div>

@@ -84,6 +84,14 @@ export const MenuSection = {
       image:Food1,
       name:"Food Name",
     },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
   ],
 
 }
@@ -249,3 +257,57 @@ export const Testimonials = [
   },
 ];
 // #D9CABD
+
+
+
+
+// Card
+
+
+export const cardContent = [
+	{
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+  {
+		imageURL: Food12,
+		imageAlt: "Esmae Sissy",
+		
+	},
+];

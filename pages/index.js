@@ -10,6 +10,8 @@ import Header from "../components/Header";
 import IntroComponent from "../components/IntroComponent";
 import Testimonials from "../components/Testimonials";
 import Reservation from "../components/Reservation";
+import Posts from "../components/Posts";
+
 
 export default function Home() {
   return (
@@ -21,6 +23,11 @@ export default function Home() {
       <Gallery />
       <Testimonials />
       <Reservation />
+      <br />
+      <br />
+      <br />
+
+      <Posts />
       {/* <ContactUs /> */}
       <Footer />
     </div>

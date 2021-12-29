@@ -5,12 +5,9 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Icon from "../../public/assets/images/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebook,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import SvgIcon from "../../common/SvgIcon";
+import { Whatsapp, Instagram, Facebook } from "../../data";
+
 
 function Header() {
   const [open, setOpen] = useState(true);
@@ -59,9 +56,8 @@ function Header() {
             alignItems: "center",
           }}
         >
-          <Image className={styles.image} src={Icon} alt={"title"} />
         </div>
-        {/* <Link
+        <Link
           href="/"
           passHref
           onClick={(e) => {
@@ -73,8 +69,8 @@ function Header() {
             }
           }}
         >
-          <div className={styles.brand}>Gayatri Institute</div>
-        </Link> */}
+          <Image className={styles.image} src={Icon} alt={"title"} height={"60rem"} width={"70rem"} />
+        </Link>
       </div>
 
       <div className={styles.menu} onClick={() => setOpen(!open)}>
@@ -232,17 +228,17 @@ function Header() {
             <div className={styles.socials}>
               <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <FontAwesomeIcon icon={faInstagram} size="lg" />
+                  <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
                 </a>
               </Link>
               <Link href={"https://www.facebook.com"}>
                 <a target="_blank">
-                  <FontAwesomeIcon icon={faFacebook} size="lg" />
+                  <Image className={styles.image} src={Facebook} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
                 </a>
               </Link>
               <Link href={"https://www.whatsapp.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+                  <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={"50rem"} height={"70rem"}/>
                 </a>
               </Link>
             </div>

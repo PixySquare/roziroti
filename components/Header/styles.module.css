@@ -70,8 +70,17 @@
   width: 0;
   position: absolute;
   background: #000;
+  background-color: #E87928;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
 }
+
+
+
+.nav_item:hover {
+  color: #E87928 !important;
+}
+
 
 .nav_item:hover::after {
   width: 100%;

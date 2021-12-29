@@ -1,3 +1,16 @@
+// Social Icons
+import W from "../public/svg/social/whatsapp.svg";
+export const Whatsapp = W;
+
+import F from "../public/svg/social/facebook.svg";
+export const Facebook = F;
+
+import I from "../public/svg/social/instagram.svg";
+export const Instagram = I;
+
+
+
+
 export const Testimonials = [
   {
     Rating: 1,

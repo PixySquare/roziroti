@@ -26,7 +26,10 @@ export default function index() {
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
+      <div style={{ textAlign: "center" }} className={styles.heading}>
+        More from us
+      </div>
       <Carousel
         responsive={responsive}
         swipeable={true}
@@ -43,7 +46,6 @@ export default function index() {
             </div>
           );
         })}
-        {/* <PostCard data={cardContent[0]} /> */}
       </Carousel>
       ;
     </div>

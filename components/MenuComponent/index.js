@@ -1,6 +1,9 @@
 import Link from "next/link";
 import MenuItem from "../MenuItem";
 import styles from "./styles.module.css";
+import Image from "next/image";
+import { Divider } from "../../data";
+
 import { MenuSection, MenuSectionMobile } from "../../data";
 // import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
@@ -29,7 +32,15 @@ function MenuComponent() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.upperInfo}>
-        <div style={{ textAlign: "center" }} className={styles.heading}>{MenuSection.heading}</div>
+        <div style={{ textAlign: "center" }} className={styles.heading}>
+          {MenuSection.heading}
+        </div>
+        <div className={styles.containerDivider} >
+          <div className="DividerMid">
+            <Image src={Divider}  alt={"main menu"} />
+          </div>
+        </div>
+      
         <p style={{ lineHeight: "23.5px", fontWeight: 300, textAlign: "center"}}>
           {MenuSection.text}
         </p>

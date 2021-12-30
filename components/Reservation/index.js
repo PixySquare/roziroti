@@ -1,9 +1,15 @@
 import styles from "./styles.module.css";
-
+import { Divider } from "../../data";
+import Image from "next/image";
 export default function Reservation() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.heading}>Reservation</div>
+      <div className={styles.containerDivider} >
+          <div className="DividerMidT">
+            <Image src={Divider}  alt={"main menu"} />
+          </div>
+        </div>
       <p className={styles.text2}> Lorem ipsum Loremm ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum</p>
       <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
         <input

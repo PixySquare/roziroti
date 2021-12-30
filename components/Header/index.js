@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Icon from "../../public/assets/images/logo.png";
 import { Whatsapp, Instagram, Facebook } from "../../data";
-
+import Button from "../../common/Button";
 
 function Header() {
   const [open, setOpen] = useState(true);
@@ -225,7 +225,8 @@ function Header() {
               </a>
             </div>
             <div className={styles.socials}>
-              <Link href={"https://www.instagram.com"}>
+              <Button text="Order Now"  href={"https://www.zomato.com"}></Button>
+              {/* <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
                   <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
@@ -239,7 +240,7 @@ function Header() {
                 <a target="_blank" className={styles.nav_item}>
                   <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}

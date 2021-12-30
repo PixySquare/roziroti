@@ -107,6 +107,28 @@ figure {
   justify-content: center;
 }
 
+.DividerLeft{
+  display: flex;
+  justify-content: left;
+  width: 17rem;
+}
+
+.DividerMid{
+  display: flex;
+  justify-content: center !important;
+  width: 17rem;
+}
+
+
+.DividerMidT{
+  display: flex;
+  justify-content: center !important;
+  width: 23rem;
+}
+
+
+
+
 
 @media (max-width: 1055px) {
   .onMobile{
@@ -116,5 +138,26 @@ figure {
   .onDesktop{
     display: none;
   }
+
+  .DividerLeft{
+    display: flex;
+    justify-content: left;
+    width: 10rem;
+  }
+  
+  .DividerMid{
+    display: flex;
+    justify-content: center !important;
+    width: 10rem;
+  }
+
+  
+.DividerMidT{
+  display: flex;
+  justify-content: center !important;
+  width: 13rem;
+}
+
+  
 
 }

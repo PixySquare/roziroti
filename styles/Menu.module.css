@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 50vh;
   background-color: #fff6b8;
   /* margin-top: 60px; */
 }
@@ -36,14 +36,16 @@
   margin-left: auto;
 }
 
-/* .menuflexItem{
-} */
+.menuflexItem{
+  flex: 1 0 21% ; /* explanation below */
+  margin: 5px;
+}
 
 
 @media (max-width: 800px) {
 
   .heading{
-    font-size:2rem; 
+    font-size:3rem; 
   }
   .heading2{
     font-size:1rem; 
@@ -51,6 +53,16 @@
 
   .menuFlex {
     width: 90%;
+  }
+
+  .cover {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #fff6b8;
+    /* margin-top: 60px; */
   }
   
 

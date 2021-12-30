@@ -133,6 +133,14 @@ figure {
   width: 23rem;
 }
 
+
+.menuImage{
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
 @media (max-width: 1055px) {
   .onMobile {
     display: block;
@@ -159,9 +167,5 @@ figure {
     justify-content: center !important;
     width: 13rem;
   }
-}
 
-.menuImage{
-  object-fit: cover;
-  border-radius: 50%;
 }

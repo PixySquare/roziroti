@@ -125,36 +125,36 @@ export const MenuSection = {
   text: "At Rozi Roti, you can be assured that we maintain the highest quality in taste and hygiene, so you come back for second servings, everytime. Visit our restaurant or order online to taste the most delicious and homely food that might remind you of the food Amma cooked for you with love!",
   foodItems: [
     {
-      image: Food1,
-      name: "Food Name",
+      image: KadaiPaneer,
+      name: "Kadai Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: ShahiPaneer,
+      name: "Shahi Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: MatarPaneer,
+      name: "Matar Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: RajmaMasala,
+      name: "Rajma",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: PalakPaneer,
+      name: "Palak Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: BainganBharta,
+      name: "Baingan Bharta",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: PaneerBhurji,
+      name: "Paneer Bhujia",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: PaneerButterMasala,
+      name: "Paneer Butter Masala",
     },
   ],
 };
@@ -164,20 +164,20 @@ export const MenuSectionMobile = {
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
   foodItems: [
     {
-      image: Food1,
-      name: "Food Name",
+      image: KadaiPaneer,
+      name: "Kadai Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: ShahiPaneer,
+      name: "Shahi Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: MatarPaneer,
+      name: "Matar Paneer",
     },
     {
-      image: Food1,
-      name: "Food Name",
+      image: RajmaMasala,
+      name: "Rajma",
     },
   ],
 };

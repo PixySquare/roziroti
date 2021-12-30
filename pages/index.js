@@ -26,7 +26,6 @@ export default function Home() {
       <br />
       <br />
 
-
       <AboutUs />
       <MenuComponent />
       <Gallery />

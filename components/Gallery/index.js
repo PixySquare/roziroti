@@ -29,7 +29,7 @@ function Gallery() {
           <Image src={img} alt="Gallery image 4" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--5">
-          <Link href={"https://www.google.com"} passHref>
+          <Link href={"/gallery"} passHref>
             <div className=" gallery__img">
               <Image
                 src={img}

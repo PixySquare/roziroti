@@ -72,7 +72,22 @@ export const SoyaChaap = SC;
 
 
 
+// Gallery
 
+import PB1 from "../public/assets/images/food/Paneer-Bhurji.jpg";
+export const Photo1 = PB1;
+
+import PBM2 from "../public/assets/images/food/Paneer-butter-masala.jpg";
+export const Photo2 = PBM2;
+
+import RM3 from "../public/assets/images/food/Rajma-masala.jpg";
+export const Photo3 = RM3;
+
+import SP4 from "../public/assets/images/food/shahi-paneer.jpg";
+export const Photo4 = SP4;
+
+import SC5 from "../public/assets/images/food/Soya-Chaap.jpg";
+export const Photo5 = SC5;
 
 // Divider
 import D from "../public/svg/divider.svg";

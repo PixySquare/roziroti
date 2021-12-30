@@ -2,6 +2,21 @@
 import L from "../public/assets/images/logoBigTransparent.png";
 export const LogoBig = L;
 
+// Banner
+import B1 from "../public/assets/images/banner/1.jpg";
+export const Banner1 = B1;
+
+import B2 from "../public/assets/images/banner/2.jpg";
+export const Banner2 = B2;
+
+import B3 from "../public/assets/images/banner/3.jpg";
+export const Banner3 = B3;
+
+import B4 from "../public/assets/images/banner/4.jpg";
+export const Banner4 = B4;
+
+
+
 // Divider
 import D from "../public/svg/divider.svg";
 export const Divider = D;

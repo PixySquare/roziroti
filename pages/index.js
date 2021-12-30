@@ -11,6 +11,8 @@ import IntroComponent from "../components/IntroComponent";
 import Testimonials from "../components/Testimonials";
 import Reservation from "../components/Reservation";
 import Posts from "../components/Posts";
+import CarouselCover from "../components/CarouselCover";
+
 
 
 export default function Home() {
@@ -18,6 +20,14 @@ export default function Home() {
     <div>
       <Header />
       <IntroComponent />
+      <br />
+
+      {/* <CarouselCover/> */}
+      <br />
+
+      <br />
+      <br />
+
       <AboutUs />
       <MenuComponent />
       <Gallery />

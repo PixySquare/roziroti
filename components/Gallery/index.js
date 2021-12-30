@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import img from "../../public/assets/images/intro.png";
 import Image from "next/image";
 import { Divider } from "../../data";
+import Link from "next/link";
 
 function Gallery() {
   return (
@@ -28,11 +29,21 @@ function Gallery() {
           <Image src={img} alt="Gallery image 4" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--5">
-          <Image src={img} alt="Gallery image 5" className="gallery__img" />
+        <Link href={"https://www.google.com"} passHref>
+          <div className=" gallery__img" >
+            <div>
+              <div styles={{margin:0}} className={styles.headHeading}>
+               View More
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          {/* <Image src={img} alt="Gallery image 5" className="gallery__img" /> */}
         </figure>
-        <figure className="gallery__item gallery__item--6">
+        {/* <figure className="gallery__item gallery__item--6">
           <Image src={img} alt="Gallery image 6" className="gallery__img" />
-        </figure>
+        </figure> */}
       </div>
     </div>
   );

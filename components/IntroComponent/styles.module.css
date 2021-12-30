@@ -16,11 +16,17 @@
   margin-left: auto;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   /* align-items: center; */
-  top: -150px;
+  top: 82vh;
   left: 95vw;
-  padding-right: 30px;
-  position: relative;
+  margin-right: 30px;
+  position: fixed;
+  z-index: 100;
+  /* background-color: #fff; */
+  border-radius: 30px;
+  padding: 5px;
+  /* border: 2px solid #e87928; */
 }
 
 @media (max-width: 1055px) {

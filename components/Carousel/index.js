@@ -11,9 +11,9 @@ function index(props) {
   const width = props.width;
   return (
     <div className="carousel-wrapper" style={{marginTop: 80}}>
-      <Carousel infiniteLoop={true} interval={3000} useKeyboardArrows autoPlay
-        showThumbs={false} stopOnHover={true} 
-        showArrows={true} emulateTouch={true} swipable={true} >
+      <Carousel infiniteLoop={true} interval={4000} useKeyboardArrows autoPlay
+        showThumbs={false} stopOnHover={true}  animationHandler='fade' transitionTime={1500}
+        showArrows={true} emulateTouch={true} swipable={false} >
         <div>
           <Image src={Banner1} height={height} width={width}
             alt="legend 1"/>

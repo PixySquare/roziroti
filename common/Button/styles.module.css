@@ -1,24 +1,24 @@
 
 .button {
-    border: 0.15rem solid #e87928 ;
+    border: 0.15rem solid #E23744 ;
     border-radius: 1rem;
-    background-color: #e87928;
+    background-color: #E23744;
     color: #ffffff;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
+    padding-left:6%;
+    /* padding-right: 1%; */
+    padding-top: 0.7rem;
     align-items: center;
     font-weight: bold;
-    font-size: 1rem;
-    height: 2rem;
-    width: 7rem;
+    font-size: 1.1rem;
+    height: 3rem;
+    width: 8rem;
     cursor: pointer;
     
   }
   
 .button:hover {
     background-color: #fff;
-    color: #e87928 !important;
+    color: #E23744 !important;
 }
 
 
@@ -26,10 +26,10 @@
     
     .button{
         font-size: 3.5vw;
-        border: 2px solid #e87928;
+        border: 2px solid #E23744;
         border-radius: 20px;
         background-color: white;
-        color: #e87928 !important;
+        color: #E23744 !important;
         padding: 3px 10px;
         cursor: pointer;
     }

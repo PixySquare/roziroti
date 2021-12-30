@@ -13,19 +13,14 @@
 
 }
 
-.head{
-  background-image: url("../../public/assets/images/intro.png") ;
-  background-blend-mode: 5;
-  background-size:cover;
-}
 
 .headHeading{
-  z-index: 1;
+ position: relative;
+ top:-50 !important;
+
+ z-index: 100 !important;
   font-size:2rem;
-  margin-top:45%;
-  margin-bottom: auto;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  color: #000;
 }
 
 

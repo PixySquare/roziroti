@@ -30,14 +30,14 @@ function Gallery() {
         </figure>
         <figure className="gallery__item gallery__item--5">
         <Link href={"https://www.google.com"} passHref>
-          <div className=" gallery__img" >
-            <div>
-              <div styles={{margin:0}} className={styles.headHeading}>
+        <div className=" gallery__img" >
+          <Image src={img} alt="Gallery image 4" className="gallery__img" />
+              <div className={styles.headHeading}>
                View More
               </div>
-            </div>
           </div>
-          </Link>
+
+        </Link>
 
           {/* <Image src={img} alt="Gallery image 5" className="gallery__img" /> */}
         </figure>

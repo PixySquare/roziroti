@@ -24,14 +24,14 @@ export default function Home() {
 
       {/* <CarouselCover/> */}
       <br />
+      <br />
 
-      <br />
-      <br />
 
       <AboutUs />
       <MenuComponent />
       <Gallery />
       <Testimonials />
+      <br />
       <Reservation />
       <br />
       <Posts />

@@ -7,12 +7,7 @@ import Link from "next/link";
 export default function index(props) {
 	return (
 		<div className={styles.mainContainer}>
-                <Image
-					alt={props.data.imageAlt}
-					src={"https://www.instagram.com/p/CYFBytFODkp/"}
-					width={"303vw"}
-					height={"303vw"}
-				/>
+			<iframe  height="440" src="https://www.instagram.com/p/CYFBytFODkp/embed" frameBorder="0"></iframe>
 		</div>
 	);
 }

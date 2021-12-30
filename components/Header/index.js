@@ -98,7 +98,7 @@ function Header() {
         {open && (
           <div className={styles.collapse}>
             <div className={styles.linkDiv}>
-              <a
+              {/* <a
                 href="/"
                 onClick={(e) => {
                   const menu = document.getElementById("home");
@@ -119,7 +119,8 @@ function Header() {
                 }}
               >
                 <div className={styles.nav_item}>Home</div>
-              </a>
+              </a> */}
+              
               <a
                 href="/"
                 onClick={(e) => {

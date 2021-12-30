@@ -30,7 +30,7 @@ function MenuComponent() {
   // };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="aboutus">
       <div className={styles.upperInfo}>
         <div style={{ textAlign: "center" }} className={styles.heading}>
           {MenuSection.heading}

@@ -28,7 +28,7 @@ function AboutUs() {
     }
   };
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="aboutus">
       <div className={styles.heading}>
         {AboutSection.heading}
         <div className="DividerLeft">

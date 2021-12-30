@@ -24,9 +24,6 @@ export default function Home() {
       <Testimonials />
       <Reservation />
       <br />
-      <br />
-      <br />
-
       <Posts />
       {/* <ContactUs /> */}
       <Footer />

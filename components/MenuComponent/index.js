@@ -1,49 +1,58 @@
 import Link from "next/link";
 import MenuItem from "../MenuItem";
 import styles from "./styles.module.css";
-import { MenuSection } from "../../data";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import { MenuSection, MenuSectionMobile } from "../../data";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
 
 function MenuComponent() {
 
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
+  // const responsive = {
+  //   superLargeDesktop: {
+  //     breakpoint: { max: 4000, min: 3000 },
+  //     items: 5
+  //   },
+  //   desktop: {
+  //     breakpoint: { max: 3000, min: 1024 },
+  //     items: 3
+  //   },
+  //   tablet: {
+  //     breakpoint: { max: 1024, min: 464 },
+  //     items: 2
+  //   },
+  //   mobile: {
+  //     breakpoint: { max: 464, min: 0 },
+  //     items: 1
+  //   }
+  // };
 
   return (
     <div className={styles.wrapper}>
       <div className={styles.upperInfo}>
         <div style={{ textAlign: "center" }} className={styles.heading}>{MenuSection.heading}</div>
-        <p
-          style={{ lineHeight: "23.5px", fontWeight: 300, textAlign: "center"}}
-        >
+        <p style={{ lineHeight: "23.5px", fontWeight: 300, textAlign: "center"}}>
           {MenuSection.text}
         </p>
       </div>
-      <div className="onDesktop">
+      <div className="onDesktop" >
         <div className={styles.menuFlex}>
           {MenuSection.foodItems.map((item,index) => (
             <MenuItem key={index} data={item} />
           ))}
         </div>
-      </div>    
-      <div className="onMobile"> 
+      </div> 
+
+      <div className="onMobile">
+          <div className={styles.menuFlex}>
+            {MenuSectionMobile.foodItems.map((item,index) => (
+              <MenuItem key={index} data={item} />
+            ))}
+          </div>
+
+      </div>
+
+
+      {/* <div className="onMobile"> 
         <Carousel
           swipeable={true}
           draggable={false}
@@ -67,13 +76,15 @@ function MenuComponent() {
           ))}
         </Carousel>
         <br />
-      </div>
+      </div> */}
       
       <Link href="/menu" passHref>
       <div className={styles.btn}>
           <p style={{ textAlign: "center" }}>View Menu</p>
       </div>
       </Link>
+
+      
 
     </div>
   );

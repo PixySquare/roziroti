@@ -96,6 +96,29 @@ export const MenuSection = {
 
 }
 
+export const MenuSectionMobile = {
+  heading:"Our Menu",
+  text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  foodItems: [
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+    {
+      image:Food1,
+      name:"Food Name",
+    },
+  ],
+}
+
 
 // Footer
 

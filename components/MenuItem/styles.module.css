@@ -15,3 +15,15 @@
   border: 0px solid #ffff0000;
   border-radius: 50%;
 }
+
+@media (max-width: 1055px) {
+  
+  .wrapper {
+    width: fit-content;
+    margin: 0%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    max-width: 4.5rem;
+  }
+}

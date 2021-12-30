@@ -42,6 +42,7 @@ export default class index extends Component {
           draggable={true}
           infinite={true}
           autoPlay={true}
+          arrows={false} 
           autoPlaySpeed={3000}
           keyBoardControl={true}
         >

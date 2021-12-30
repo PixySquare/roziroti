@@ -1,7 +1,9 @@
 .wrapper {
   background-color: #fff6b8;
-  padding: 30px;
-  margin-top: 50px;
+  /* padding: 30px; */
+  margin-top: 1rem;
+  padding-bottom:2rem;
+
   color: #1F3A24 !important;
 }
 
@@ -70,8 +72,29 @@
 @media (max-width: 768px){
 
   .heading{
-    font-size:3rem;
+    font-size:2rem;
+    padding-top: 1rem;
   }
+
+  .upperInfo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .menuFlex {
+    width: 97%;  
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .btn {
+    width: 40% !important;
+    min-width: 0px;
+  }
+  
+  
 
   
 

@@ -13,10 +13,6 @@ export default function index(props) {
 					width={"303vw"}
 					height={"303vw"}
 				/>
-
-
-
-
 		</div>
 	);
 }

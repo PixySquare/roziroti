@@ -11,6 +11,11 @@
 
 @media (max-width: 1055px) {
   .wrapper {
-    width: 80%;
+    width: 40%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin: 0px;
+
+
   }
 }

@@ -2,8 +2,8 @@ import styles from "./styles.module.css";
 import { AboutSection } from '../../data';
 import Image from "next/image";
 import TeamCard from "../TeamCard";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+// import Carousel from "react-multi-carousel";
+// import "react-multi-carousel/lib/styles.css";
 
 function AboutUs() {
 
@@ -39,37 +39,13 @@ function AboutUs() {
           <Image src={AboutSection.image} className="imageDiv" alt={AboutSection.imageAlt} />
         </div>
       </div>
-      <div className={styles.onDesktop}>
-        <div className={styles.teamFlex}>
+
+      <div className={styles.teamFlex}>
             <TeamCard data={AboutSection.person1} />
             <TeamCard data={AboutSection.person3} />
-        </div>
       </div>
+      
 
-      <div className={styles.onMobile}> 
-        <Carousel
-          swipeable={true}
-          draggable={false}
-          showDots={true}
-          responsive={responsive}
-          ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          autoPlaySpeed={1000}
-          keyBoardControl={true}
-          customTransition="all .5"
-          transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
-        >
-          <TeamCard data={AboutSection.person1} />
-          <TeamCard data={AboutSection.person2} />
-        </Carousel>
-      </div>
-
-
-        
     </div>
   );
 }

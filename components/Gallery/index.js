@@ -6,13 +6,13 @@ import Link from "next/link";
 
 function Gallery() {
   return (
-    <div className={styles.container}  id="gallery">
+    <div className={styles.container} id="gallery">
       <div className={styles.heading}>Gallery</div>
-      <div className={styles.containerDivider} >
-          <div className="DividerMid">
-            <Image src={Divider}  alt={"main menu"} />
-          </div>
+      <div className={styles.containerDivider}>
+        <div className="DividerMid">
+          <Image src={Divider} alt={"main menu"} />
         </div>
+      </div>
 
       <br />
       <div className={styles.gallery}>
@@ -29,15 +29,17 @@ function Gallery() {
           <Image src={img} alt="Gallery image 4" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--5">
-        <Link href={"https://www.google.com"} passHref>
-        <div className=" gallery__img" >
-          <Image src={img} alt="Gallery image 4" className="gallery__img" />
-              <div className={styles.headHeading}>
-               View More
-              </div>
-          </div>
-
-        </Link>
+          <Link href={"https://www.google.com"} passHref>
+            <div className=" gallery__img">
+              <Image
+                src={img}
+                alt="Gallery image 4"
+                className="gallery_img_opacity"
+                // style={{ opacity: 0.5 }}
+              />
+              <div className={styles.headHeading}>View More</div>
+            </div>
+          </Link>
 
           {/* <Image src={img} alt="Gallery image 5" className="gallery__img" /> */}
         </figure>

@@ -1,0 +1,36 @@
+
+.button {
+    border: 0.15rem solid #e87928 ;
+    border-radius: 1rem;
+    background-color: #e87928;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    
+  }
+  
+.button:hover {
+    background-color: #fff;
+    color: #e87928 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .button{
+        font-size: 3.5vw;
+        border: 2px solid #e87928;
+        border-radius: 20px;
+        background-color: white;
+        color: #e87928 !important;
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+}

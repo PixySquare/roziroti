@@ -4,6 +4,7 @@ import Image from "next/image";
 import TeamCard from "../TeamCard";
 // import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
+import { Divider } from "../../data";
 
 function AboutUs() {
 
@@ -28,7 +29,13 @@ function AboutUs() {
   };
   return (
     <div className={styles.wrapper}>
-      <div className={styles.heading}>{AboutSection.heading}</div>
+      <div className={styles.heading}>
+        {AboutSection.heading}
+        <div className="DividerLeft">
+          <Image src={Divider}  alt={"main menu"} />
+        </div>
+      </div>
+      
       <div className={styles.flexDiv}>
         <div className={styles.leftContainer}>
           <p className={styles.textDiv}>

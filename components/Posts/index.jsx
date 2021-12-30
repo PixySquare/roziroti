@@ -29,26 +29,27 @@ export default function index() {
 
 
     return (
-        <div>
-            <Carousel
-                 responsive={responsive}
-                 swipeable={true}
-                 draggable={true}
-                 infinite={true}
-                 autoPlay={true}
-                 autoPlaySpeed={3000}
-                 keyBoardControl={true}
-                >
-                  {cardContent.map((item,index) => {
-                        return (
-                              <div className={styles.cardContainer}  key={index}>
-                                <PostCard data={item}/>
-                              </div>
-                        );
-                    })
-                }
+        <div className={styles.wrapper}>
+        <div style={{ textAlign: "center" }} className={styles.heading}>More from us</div>
+        <Carousel
+              responsive={responsive}
+              swipeable={true}
+              draggable={true}
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={3000}
+              keyBoardControl={true}
+            >
+              {cardContent.map((item,index) => {
+                    return (
+                          <div className={styles.cardContainer}  key={index}>
+                            <PostCard data={item}/>
+                          </div>
+                    );
+                })
+            }
 
-              </Carousel>;
+          </Carousel>;
         </div>
     )
 }

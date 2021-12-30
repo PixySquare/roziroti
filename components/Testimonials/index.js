@@ -3,7 +3,8 @@ import React, { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "./styles.module.css";
-import { Testimonials } from "../../data";
+import { Testimonials, Divider } from "../../data";
+import Image from "next/image";
 
 const responsive = {
   superLargeDesktop: {
@@ -34,6 +35,14 @@ export default class index extends Component {
         <div className={styles.heading} style={{ textAlign: "center" }}>
           TESTIMONIALS
         </div>
+
+        <div className={styles.containerDivider} >
+          <div className="DividerMidT">
+            <Image src={Divider}  alt={"main menu"} />
+          </div>
+        </div>
+
+      <br />
 
         <br />
         <Carousel

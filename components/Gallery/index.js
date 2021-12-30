@@ -1,10 +1,19 @@
 import styles from "./styles.module.css";
 import img from "../../public/assets/images/intro.png";
 import Image from "next/image";
+import { Divider } from "../../data";
+
 function Gallery() {
   return (
     <div className={styles.container}>
       <div className={styles.heading}>Gallery</div>
+      <div className={styles.containerDivider} >
+          <div className="DividerMid">
+            <Image src={Divider}  alt={"main menu"} />
+          </div>
+        </div>
+
+      <br />
       <div className={styles.gallery}>
         <figure className="gallery__item gallery__item--1">
           <Image src={img} alt="Gallery image 1" className="gallery__img" />

@@ -22,6 +22,14 @@
 }
 
 
+
+.containerDivider{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 @media (max-width: 800px) {
   .testimonialWrapper {
     width: 80% !important;

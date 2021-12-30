@@ -6,7 +6,10 @@ function MenuItem(props) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageDiv}>
-        <Image src={props.data.image} alt={props.data.name} />
+        <Image 
+          height={"300px"}
+          width={"300px"}
+        src={props.data.image} alt={props.data.name} className="menuImage" />
       </div>
       <p>{props.data.name}</p>
     </div>

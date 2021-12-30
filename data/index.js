@@ -15,6 +15,63 @@ export const Banner3 = B3;
 import B4 from "../public/assets/images/banner/4.jpg";
 export const Banner4 = B4;
 
+// Menu
+import AG from "../public/assets/images/food/aloo-gobi.jpg";
+export const AlooGobi = AG;
+
+import BB from "../public/assets/images/food/Baingan-Bharta.jpg";
+export const BainganBharta = BB;
+
+import CM from "../public/assets/images/food/channa-masala.jpg";
+export const ChanaMasala = CM;
+
+import DF from "../public/assets/images/food/dal-fry.jpg";
+export const DalFry = DF;
+
+import DM from "../public/assets/images/food/dal-makhni.jpg";
+export const DalMakhni = DM;
+
+import JA from "../public/assets/images/food/Jeera-Aloo.jpg";
+export const JeeraAloo = JA;
+
+import KP from "../public/assets/images/food/Kadai-Paneer.jpg";
+export const KadaiPaneer = KP;
+
+import MP from "../public/assets/images/food/Matar-Paneer.jpg";
+export const MatarPaneer = MP;
+
+import MV from "../public/assets/images/food/Mix-Veg.jpg";
+export const MixVeg = MV;
+
+import PP from "../public/assets/images/food/palak-paneer.jpg";
+export const PalakPaneer = PP;
+
+import PB from "../public/assets/images/food/Paneer-Bhurji.jpg";
+export const PaneerBhurji = PB;
+
+import PBM from "../public/assets/images/food/Paneer-butter-masala.jpg";
+export const PaneerButterMasala = PBM;
+
+import RM from "../public/assets/images/food/Rajma-masala.jpg";
+export const RajmaMasala = RM;
+
+import SP from "../public/assets/images/food/shahi-paneer.jpg";
+export const ShahiPaneer = SP;
+
+import SC from "../public/assets/images/food/Soya-Chaap.jpg";
+export const SoyaChaap = SC;
+
+// import B1 from "../public/assets/images/banner/1.jpg";
+// export const Banner1 = B1;
+
+// import B1 from "../public/assets/images/banner/1.jpg";
+// export const Banner1 = B1;
+
+// import B1 from "../public/assets/images/banner/1.jpg";
+// export const Banner1 = B1;
+
+
+
 
 
 // Divider
@@ -65,7 +122,7 @@ export const AboutSection = {
 
 export const MenuSection = {
   heading: "Our Menu",
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  text: "At Rozi Roti, you can be assured that we maintain the highest quality in taste and hygiene, so you come back for second servings, everytime. Visit our restaurant or order online to taste the most delicious and homely food that might remind you of the food Amma cooked for you with love!",
   foodItems: [
     {
       image: Food1,
@@ -184,6 +241,79 @@ export const AllMenu = [
   {
     image: Food1,
     name: "Food Name",
+  },
+];
+
+
+
+export const MainCourse = [
+  {
+    image: KadaiPaneer,
+    name: "Kadai Paneer",
+  },
+  {
+    image: ShahiPaneer,
+    name: "Shahi Paneer",
+  },
+  {
+    image: MatarPaneer,
+    name: "Matar Paneer",
+  },
+  {
+    image: RajmaMasala,
+    name: "Rajma",
+  },
+  {
+    image: PalakPaneer,
+    name: "Palak Paneer",
+  },
+  {
+    image: BainganBharta,
+    name: "Baingan Bharta",
+  },
+  {
+    image: PaneerBhurji,
+    name: "Paneer Bhujia",
+  },
+  {
+    image: PaneerButterMasala,
+    name: "Paneer Butter Masala",
+  },
+  {
+    image: DalFry,
+    name: "Dal Fry",
+  },
+  {
+    image: DalMakhni,
+    name: "Dal Makhni",
+  },
+  {
+    image: PaneerBhurji,
+    name: "kadi Pakod sdfvfssvssvrvrvsvvvva",
+  },
+  {
+    image: RajmaMasala,
+    name: "Rajma Masala",
+  },
+  {
+    image: ChanaMasala,
+    name: "Chana Masala",
+  },
+  {
+    image: AlooGobi,
+    name: "Aloo Gobi",
+  },
+  {
+    image: JeeraAloo,
+    name: "Jeera Aloo",
+  },
+  {
+    image: MixVeg,
+    name: "Mix Veg",
+  },
+  {
+    image: SoyaChaap,
+    name: "Soyabin Chaap",
   },
 ];
 

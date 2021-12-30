@@ -160,3 +160,8 @@ figure {
     width: 13rem;
   }
 }
+
+.menuImage{
+  object-fit: cover;
+  border-radius: 50%;
+}

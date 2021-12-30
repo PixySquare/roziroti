@@ -3,7 +3,7 @@ import { Divider } from "../../data";
 import Image from "next/image";
 export default function Reservation() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="reservation">
       <div className={styles.heading}>Reservation</div>
       <div className={styles.containerDivider} >
           <div className="DividerMidT">

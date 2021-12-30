@@ -120,7 +120,7 @@ function Header() {
               >
                 <div className={styles.nav_item}>Home</div>
               </a> */}
-              
+
               <a
                 href="/"
                 onClick={(e) => {
@@ -151,7 +151,7 @@ function Header() {
               <a
                 href="/"
                 onClick={(e) => {
-                  const blogs = document.getElementById("academics");
+                  const blogs = document.getElementById("menu");
                   e.preventDefault();
                   if (process.browser) {
                     if (window.innerWidth < 1055) {
@@ -168,7 +168,7 @@ function Header() {
                     window.location.href != "http://localhost:3000/" &&
                     window.location.href != "https://pizzacassino.vercel.app/"
                   ) {
-                    location.href = "/#academics";
+                    location.href = "/#menu";
                   }
                 }}
               >
@@ -204,7 +204,7 @@ function Header() {
               <a
                 href="/"
                 onClick={(e) => {
-                  const team = document.getElementById("contact");
+                  const team = document.getElementById("reservation");
                   e.preventDefault();
                   if (process.browser) {
                     if (window.innerWidth < 1055) {
@@ -218,12 +218,38 @@ function Header() {
                     window.location.href != "http://localhost:3000/" &&
                     window.location.href != "https://pizzacassino.vercel.app/"
                   ) {
-                    location.href = "/#contact";
+                    location.href = "/#reservation";
                   }
                 }}
               >
                 <div className={styles.nav_item}>Contact Us</div>
               </a>
+
+              <a
+                href="/"
+                onClick={(e) => {
+                  const team = document.getElementById("more");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  team &&
+                    team.scrollIntoView({ behavior: "smooth", block: "start" });
+                  // window.history.pushState("team", "team", "/team");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#more";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>See more</div>
+              </a>
+
+
             </div>
             <div className={styles.socials}>
               <Button text="Order Now"  href={"https://www.zomato.com"}></Button>

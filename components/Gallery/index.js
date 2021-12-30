@@ -5,7 +5,7 @@ import { Divider } from "../../data";
 
 function Gallery() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container}  id="gallery">
       <div className={styles.heading}>Gallery</div>
       <div className={styles.containerDivider} >
           <div className="DividerMid">

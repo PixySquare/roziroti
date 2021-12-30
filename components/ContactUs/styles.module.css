@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+
   /* border-color: #333; */
 }
 
@@ -11,7 +13,7 @@
   display: inline-block;
   padding: 1em 5em 1em 1em;
   overflow: hidden;
-  color: #fff;
+  color: rgb(105, 80, 80);
   height: 100%;
   width: 40%;
   /* min-width: 900px !important; */
@@ -45,6 +47,7 @@
   margin-left: auto !important;
   margin-right: auto !important;
   /* margin-top: 50px; */
+  
 }
 
 .wrapper p {
@@ -55,9 +58,12 @@
 
 .flexDiv {
   display: flex;
-  width: 100%;
+  width: 70%;
   height: 100%;
+  margin-bottom: 0rem;
+
   /* min-height: 400px; */
+  margin-left: 30%;
   justify-content: space-between;
   /* align-items: center; */
 }

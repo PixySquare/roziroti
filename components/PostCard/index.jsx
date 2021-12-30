@@ -9,7 +9,7 @@ export default function index(props) {
     <div className={styles.mainContainer}>
       <iframe
         height="440"
-        src="https://www.instagram.com/p/CYFBytFODkp/embed"
+        src={props.data.src}
         frameBorder="0"
         style={{ borderRadius: 20 }}
       ></iframe>

@@ -27,7 +27,7 @@ export default function index() {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper}  id="more">
       <div style={{ textAlign: "center" }} className={styles.heading}>
         More from us
       </div>

@@ -41,4 +41,9 @@
   .container {
     width: 90%;
   }
+  .headHeading {
+    font-size: 0.9rem;
+    left: 15%;
+    top: -60%;
+  }
 }

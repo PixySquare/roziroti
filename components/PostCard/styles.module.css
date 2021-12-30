@@ -1,5 +1,5 @@
-.mainContainer{
-  border : 2px solid ;
+.mainContainer {
+  border: 2px solid;
   border-radius: 20px !important;
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
@@ -16,6 +16,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.mainContainer iframe {
+  width: 300px;
 }
 
 .coinShortNameContainer {
@@ -45,7 +48,7 @@
   .mainContainer {
     border-radius: 20px !important;
     border-color: #e87928;
-    width: 60% !important;
+    width: 305px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }

@@ -1,57 +1,53 @@
-.mainContainer{
-    border : 2px solid ;
-    border-radius: 20px !important;
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-    border-color: #e87828;
-    background-color: rgb(255, 255, 255);
-    width: 20rem;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    filter: drop-shadow(0 0 0.75rem rgba(180, 130, 72, 0.15));
-    padding: 0.9rem;
+.mainContainer {
+  border: 2px solid;
+  border-radius: 20px !important;
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  border-color: #e87828;
+  background-color: rgb(255, 255, 255);
+  width: 305px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  filter: drop-shadow(0 0 0.75rem rgba(180, 130, 72, 0.15));
+  /* padding: 0.9rem; */
 }
 
-.imageContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.coinShortNameContainer{
-    text-align: center;
-    margin-top: auto !important;
-    margin-bottom: auto !important;
+.coinShortNameContainer {
+  text-align: center;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
-.coinDescriptionContainer{
-    text-align: center;
-    width: 85%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-decoration: solid;
+.coinDescriptionContainer {
+  text-align: center;
+  width: 85%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-decoration: solid;
 }
 
-.socialURLsContainer{
-    margin-left: 3rem !important;
-    margin-right: 3rem !important;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-
+.socialURLsContainer {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 800px) {
-    .mainContainer{
-        border-radius: 20px !important;
-        border-color: #e87928;
-        width: 60% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    
-    }
-
-
+  .mainContainer {
+    border-radius: 20px !important;
+    border-color: #e87928;
+    /* width: 60% !important; */
+    width: 305px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
-

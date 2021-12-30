@@ -5,13 +5,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function index(props) {
-	return (
-		<div className={styles.mainContainer}>
-			<iframe  height="440" src="https://www.instagram.com/p/CYFBytFODkp/embed" frameBorder="0"></iframe>
-		</div>
-	);
+  return (
+    <div className={styles.mainContainer}>
+      <iframe
+        height="440"
+        src="https://www.instagram.com/p/CYFBytFODkp/embed"
+        frameBorder="0"
+        style={{ borderRadius: 20 }}
+      ></iframe>
+    </div>
+  );
 }
 
 index.propTypes = {
-	data: PropTypes.element.isRequired,
+  data: PropTypes.element.isRequired,
 };

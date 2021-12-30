@@ -66,6 +66,13 @@
     background-position: left !important;
     border-color: #e87928 !important;
   }
+
+  
+
+.containerDivider{
+  display: flex;
+  justify-content: center;
+}
   
   
   

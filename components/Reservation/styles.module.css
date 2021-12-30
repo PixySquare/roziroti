@@ -104,15 +104,14 @@
     margin-right: 0%;
   }
 
-
   
   .form button {
     width: 60%;
   }
 
-
   .text2{
     width:100%;
+    /* font-size: */
     margin-left: 0%;
     margin-right: 0%;
     align-self: center !important;

@@ -2,8 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "./styles.module.css";
+import Image from "next/image";
 
-import { cardContent } from "../../data";
+import { cardContent, Divider } from "../../data";
 import PostCard from "../PostCard";
 
 export default function index() {
@@ -30,6 +31,11 @@ export default function index() {
       <div style={{ textAlign: "center" }} className={styles.heading}>
         More from us
       </div>
+      <div className={styles.containerDivider} >
+          <div className="DividerMidT">
+            <Image src={Divider}  alt={"main menu"} />
+          </div>
+        </div>
       <Carousel
         responsive={responsive}
         swipeable={true}

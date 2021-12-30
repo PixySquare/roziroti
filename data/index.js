@@ -1,12 +1,10 @@
 // Logo
-import L from "../public/assets/images/logoBig.jpg";
+import L from "../public/assets/images/logoBigTransparent.png";
 export const LogoBig = L;
 
 // Divider
 import D from "../public/svg/divider.svg";
 export const Divider = D;
-
-
 
 // Social Icons
 import W from "../public/svg/social/whatsapp.svg";
@@ -18,15 +16,10 @@ export const Facebook = F;
 import I from "../public/svg/social/instagram.svg";
 export const Instagram = I;
 
-
 // Food Items
 
 import Food12 from "../public/assets/images/food.png";
 export const Food1 = Food12;
-
-
-
-
 
 // About us
 
@@ -39,155 +32,145 @@ export const AboutSection = {
   text: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
   image: A,
   imageAlt: "About rozi roti",
-  person1:{
-    image:P1,
-    name:"Name Surname",
+  person1: {
+    image: P1,
+    name: "Name Surname",
   },
-  person2:{
-    image:P2,
-    name:"Name Surname",
+  person2: {
+    image: P2,
+    name: "Name Surname",
   },
-  person3:{
-    image:P3,
-    name:"Name Surname",
+  person3: {
+    image: P3,
+    name: "Name Surname",
   },
-}
-
+};
 
 // Menu Component
 
 export const MenuSection = {
-  heading:"Our Menu",
-  text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  heading: "Our Menu",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
   foodItems: [
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
   ],
-
-}
+};
 
 export const MenuSectionMobile = {
-  heading:"Our Menu",
-  text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
+  heading: "Our Menu",
+  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
   foodItems: [
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
     {
-      image:Food1,
-      name:"Food Name",
+      image: Food1,
+      name: "Food Name",
     },
   ],
-}
-
+};
 
 // Footer
 
 export const FooterSection = {
   logo: LogoBig,
-  locationText:"sdf",
-  locationSrc:"sd",
-  mail:"sknjd@gmail.com",
-  owner:{
-    name:"sdf",
-    mobile:"3456"
+  locationText: "sdf",
+  locationSrc: "sd",
+  mail: "sknjd@gmail.com",
+  owner: {
+    name: "sdf",
+    mobile: "3456",
   },
-  manager:{
-    name:"fsd",
-    mobile:"354"
+  manager: {
+    name: "fsd",
+    mobile: "354",
   },
-}
-
+};
 
 // Menu Page
 
 export const AllMenu = [
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
   {
-    image:Food1,
-    name:"Food Name",
+    image: Food1,
+    name: "Food Name",
   },
-]
-
-
-
-
-
-
+];
 
 export const Testimonials = [
   {
@@ -281,56 +264,43 @@ export const Testimonials = [
 ];
 // #D9CABD
 
-
-
-
 // Card
 
-
 export const cardContent = [
-	{
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
   {
-		imageURL: Food12,
-		imageAlt: "Esmae Sissy",
-		
-	},
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
+  {
+    imageURL: Food12,
+    imageAlt: "Esmae Sissy",
+  },
 ];

@@ -30,15 +30,15 @@ function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
       
-      
-      <div className={styles.flexDiv}>
-        <div className={styles.leftContainer}>
-        <div className={styles.heading}>
+      <div className={styles.heading}>
         {AboutSection.heading}
           <div className="DividerLeft">
            <Image src={Divider}  alt={"main menu"} />
           </div>
         </div>
+      <div className={styles.flexDiv}>
+        <div className={styles.leftContainer}>
+       
           <p className={styles.textDiv}>
           {AboutSection.text}
           </p>

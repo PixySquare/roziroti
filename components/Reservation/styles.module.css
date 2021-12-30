@@ -38,9 +38,9 @@
 
 
 .heading{
-  font-size:3rem;
+  font-size:3.5rem;
   text-align:center;
-  margin-bottom:2rem;
+  /* margin-bottom:2rem; */
   color: #1F3A24;
 }
 

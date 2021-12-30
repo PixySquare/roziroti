@@ -33,7 +33,7 @@ export default class index extends Component {
         id="testimony"
       >
         <div className={styles.heading} style={{ textAlign: "center" }}>
-          TESTIMONIALS
+          Testimonials
         </div>
 
         <div className={styles.containerDivider} >

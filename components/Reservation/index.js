@@ -10,6 +10,7 @@ export default function Reservation() {
             <Image src={Divider}  alt={"main menu"} />
           </div>
         </div>
+      <br />
       <p className={styles.text2}> Lorem ipsum Loremm ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum</p>
       <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
         <input

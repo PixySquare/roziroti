@@ -30,12 +30,15 @@ function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
       
-      <div className={styles.heading}>
-        {AboutSection.heading}
-          <div className="DividerLeft">
-           <Image src={Divider}  alt={"main menu"} />
+      <div style={{ textAlign: "center" }} className={styles.heading}>
+          {AboutSection.heading}
+        </div>
+        <div className={styles.containerDivider} >
+          <div className="DividerMid">
+            <Image src={Divider}  alt={"main menu"} />
           </div>
         </div>
+        <br />
       <div className={styles.flexDiv}>
         <div className={styles.leftContainer}>
        

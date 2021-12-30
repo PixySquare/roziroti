@@ -32,15 +32,15 @@ function MenuComponent() {
   return (
     <div className={styles.wrapper} id="menu">
       <div className={styles.upperInfo}>
-      <div className={styles.containerDivider} >
+        <div style={{ textAlign: "center" }} className={styles.heading}>
+          {MenuSection.heading}
+        </div>
+        <div className={styles.containerDivider} >
           <div className="DividerMid">
             <Image src={Divider}  alt={"main menu"} />
           </div>
         </div>
-        <div style={{ textAlign: "center" }} className={styles.heading}>
-          {MenuSection.heading}
-        </div>
-        
+      
         <p style={{ lineHeight: "23.5px", fontWeight: 300, textAlign: "center"}}>
           {MenuSection.text}
         </p>

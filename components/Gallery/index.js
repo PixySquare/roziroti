@@ -14,7 +14,6 @@ function Gallery() {
         </div>
       </div>
 
-      <br />
       <div className={styles.gallery}>
         <figure className="gallery__item gallery__item--1">
           <Image src={img} alt="Gallery image 1" className="gallery__img" />

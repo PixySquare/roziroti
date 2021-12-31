@@ -29,7 +29,6 @@ function AboutUs() {
   };
   return (
     <div className={styles.wrapper} id="aboutus">
-      
       <div style={{ textAlign: "center" }} className="heading">
           {AboutSection.heading}
         </div>
@@ -41,18 +40,19 @@ function AboutUs() {
         <br />
       <div className={styles.flexDiv}>
         <div className={styles.leftContainer}>
-       
-          <p className="textDiv">
+          <p className="textDiv onDesktop">
           {AboutSection.text}
           </p>
-         
+          <p className="textDiv onMobile">
+          {AboutSection.textM}
+          </p>
         </div>
         <div className={styles.rightContainer}>
           <Image src={AboutSection.image} className="imageDiv" alt={AboutSection.imageAlt} />
         </div>
-        <p className="textDiv2">
+        <p className={  " onMobile textDiv2"}>
             Your Safety is our responsibility
-          </p>
+        </p>
       </div>
 
       <div className={styles.teamFlex}>

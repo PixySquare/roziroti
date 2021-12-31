@@ -32,7 +32,7 @@ function MenuComponent() {
   return (
     <div className={styles.wrapper} id="menu">
       <div className={styles.upperInfo}>
-        <div style={{ textAlign: "center" }} className={styles.heading}>
+        <div style={{ textAlign: "center" }} className="heading">
           {MenuSection.heading}
         </div>
         <div className={styles.containerDivider} >
@@ -41,10 +41,11 @@ function MenuComponent() {
           </div>
         </div>
       
-        <p style={{ lineHeight: "23.5px", fontWeight: 300, textAlign: "center"}}>
+        <p style={{ lineHeight: "23.5px", fontWeight: 300}} className="leftcenter">
           {MenuSection.text}
         </p>
       </div>
+      <div>
       <div className="onDesktop" >
         <div className={styles.menuFlex}>
           {MenuSection.foodItems.map((item,index) => (
@@ -59,44 +60,13 @@ function MenuComponent() {
               <MenuItem key={index} data={item} />
             ))}
           </div>
-
       </div>
-
-
-      {/* <div className="onMobile"> 
-        <Carousel
-          swipeable={true}
-          draggable={false}
-          showDots={true}
-          responsive={responsive}
-          ssr={true} // means to render carousel on server-side.
-          infinite={true}
-          autoPlaySpeed={1000}
-          keyBoardControl={true}
-          customTransition="all .5"
-          transitionDuration={500}
-          containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
-          dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
-        >
-          {MenuSection.foodItems.map((item,index) => (
-            <div className={styles.center} key={index}>
-              <MenuItem key={index} data={item} />
-            </div>
-          ))}
-        </Carousel>
-        <br />
-      </div> */}
-      
+    </div>  
       <Link href="/menu" passHref>
-      <div className={styles.btn}>
-          <p style={{ textAlign: "center" }}>View Menu</p>
-      </div>
+        <div className={styles.btn}>
+            <p style={{ textAlign: "center" }}>View Menu</p>
+        </div>
       </Link>
-
-      
-
     </div>
   );
 }

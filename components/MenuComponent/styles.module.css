@@ -3,9 +3,7 @@
   /* padding: 30px; */
   margin-top: 1rem;
   padding-top: 2rem;
-
   padding-bottom:2rem;
-
   color: #1F3A24 !important;
 }
 
@@ -46,6 +44,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
   /* background-color:#fff; */
   text-align: center;
   display: flex !important;
@@ -92,14 +91,15 @@
   }
 
   .menuFlex {
-    width: 97%;  
+    width: 100% !important;  
     margin-right: auto;
     margin-left: auto;
   }
 
   .btn {
-    width: 40% !important;
+    width: 30% !important;
     min-width: 0px;
+    font-size:0.8rem !important;
   }
   
   

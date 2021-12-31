@@ -61,6 +61,21 @@ export const ShahiPaneer = SP;
 import SC from "../public/assets/images/food/Soya-Chaap.jpg";
 export const SoyaChaap = SC;
 
+import TC from "../public/assets/images/food/tandoori-chai.jpg";
+export const TandooriChai = TC;
+
+
+import FP from "../public/assets/images/food/fusion-paratha.jpeg";
+export const FusionPartha = FP;
+
+import KP2 from "../public/assets/images/food/kanda-paratha.jpeg";
+export const KandarParatha = KP2;
+
+import PP2 from "../public/assets/images/food/phuphaji-paratha.jpeg";
+export const PhuphajiParatha = PP2;
+
+
+
 // import B1 from "../public/assets/images/banner/1.jpg";
 // export const Banner1 = B1;
 
@@ -117,6 +132,8 @@ import P3 from "../public/assets/images/person.png";
 export const AboutSection = {
   heading: "About us",
   text: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. On a serious note, at Rozi Roti, we believe that food shouldn't only be affordable and convenient but also fresh, fun and delicious. And what could be better than home-cooked food served at your disposal. Moreover we ourselves are food lovers & great foodies, hence we believe that cooking and catering is an art that is mastered through experience along with great passion for food. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
+  textM: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
+  
   image: A,
   imageAlt: "About rozi roti",
   person1: {
@@ -136,36 +153,36 @@ export const MenuSection = {
   text: "At Rozi Roti, you can be assured that we maintain the highest quality in taste and hygiene, so you come back for second servings, everytime. Visit our restaurant or order online to taste the most delicious and homely food that might remind you of the food Amma cooked for you with love!",
   foodItems: [
     {
-      image: KadaiPaneer,
-      name: "Kadai Paneer",
+      image: DalMakhni,
+      name: "Dal Makhni",
     },
     {
-      image: ShahiPaneer,
-      name: "Shahi Paneer",
-    },
-    {
-      image: MatarPaneer,
-      name: "Matar Paneer",
-    },
-    {
-      image: RajmaMasala,
-      name: "Rajma",
-    },
-    {
-      image: PalakPaneer,
-      name: "Palak Paneer",
-    },
-    {
-      image: BainganBharta,
-      name: "Baingan Bharta",
-    },
-    {
-      image: PaneerBhurji,
-      name: "Paneer Bhujia",
+      image: AlooGobi,
+      name: "Aloo Ghobi",
     },
     {
       image: PaneerButterMasala,
-      name: "Paneer Butter Masala",
+      name: "Paneer Masala",
+    },
+    {
+      image: RajmaMasala,
+      name: "Rajma Masala",
+    },
+    {
+      image: FusionPartha,
+      name: "Fusion Paratha",
+    },
+    {
+      image: KandarParatha,
+      name: "Kanda Paratha",
+    },
+    {
+      image: PhuphajiParatha,
+      name: "Phophaji Paratha",
+    },
+    {
+      image: TandooriChai,
+      name: "Tandoori Chai",
     },
   ],
 };
@@ -175,20 +192,36 @@ export const MenuSectionMobile = {
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas. Ultricies lacus sed turpis tincidunt. In nislnisi scelerisque eu ultrices vitae auctor. Felis imperdiet proinfermentum leo vel orci. Sed odio morbi quis commodo odio aenean. Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sedviverra tellus in hac. Egestas sed tempus urna et. Sed viverratellus in hac. Egestas sed tempus urna et.",
   foodItems: [
     {
-      image: KadaiPaneer,
-      name: "Kadai Paneer",
+      image: DalMakhni,
+      name: "Dal Makhni",
     },
     {
-      image: ShahiPaneer,
-      name: "Shahi Paneer",
+      image: AlooGobi,
+      name: "Aloo Ghobi",
     },
     {
-      image: MatarPaneer,
-      name: "Matar Paneer",
+      image: PaneerButterMasala,
+      name: "Paneer Masala",
     },
     {
       image: RajmaMasala,
-      name: "Rajma",
+      name: "Rajma Masala",
+    },
+    {
+      image: FusionPartha,
+      name: "Fusion Paratha",
+    },
+    {
+      image: KandarParatha,
+      name: "Kanda Paratha",
+    },
+    {
+      image: PhuphajiParatha,
+      name: "Phophaji Paratha",
+    },
+    {
+      image: TandooriChai,
+      name: "Tandoori Chai",
     },
   ],
 };

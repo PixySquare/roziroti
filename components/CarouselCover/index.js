@@ -8,7 +8,7 @@ function CarouselCover() {
   useEffect(()=> {
     if (process.browser) {
       if (window.innerWidth < 800) {
-        setHeight(300);
+        setHeight(250);
         setWidth(500);
       }
     }

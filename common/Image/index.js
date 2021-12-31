@@ -8,7 +8,7 @@ export default function MenuCard({src, alt, width, style, height, className}) {
     <div onContextMenu={(e)=>{
       e.preventDefault();
     }}>
-      <div style={{borderRadius: '5px', overflow: 'hidden'}}>
+      <div style={{borderRadius: '0px', overflow: 'hidden'}}>
         <Image src={src} style={style}
           alt={alt} width={width}
           height={height} className={className} />

@@ -38,14 +38,14 @@
   justify-content: space-between;
   align-items: center;
   /* align-items: center; */
-  top: 70vh;
+  top: 33rem;
   /* top: 82vh; */
 
-  left: 20rem !important;
+  right: 0rem !important;
   position: fixed;
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.877);
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 5px;
   /* border: 2px solid #e87928; */
 }
@@ -68,7 +68,8 @@
   }
 
   .iconsColumn2 {
-    left: 85vw;
+    right: 0rem !important;
+
 
   }
 

@@ -67,13 +67,14 @@ function IntroComponent() {
         </Link>
       </div>
 
-      <div className={styles.iconsColumn2}>
+      <div className={styles.iconsColumn2 + " onMobile"}>
 
       <Link href={"https://www.zomato.com"}>
           <a target="_blank">
             <Image
               src={Zomato}
               size="3x"
+              alt="zomato"
               style={{ color: "#006AFF" }} />
           </a>
         </Link>

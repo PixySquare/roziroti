@@ -22,13 +22,13 @@ export default function Reservation() {
           <input
             type="text"
             placeholder="Date: 23rd December, 2021"
-            name="Name"
+            name="Date"
 
           />
           <input
             type="text"
             placeholder="Time Range: 6pm to 10pm"
-            name="Name"
+            name="Time Range"
 
             style={{ marginLeft: "10px !import" }}
           />
@@ -47,7 +47,7 @@ export default function Reservation() {
 
         <p className={styles.text}> We&apos;ll surely contact you shortly after you have submitted.</p>
         
-        <button>Submit</button>
+        <button className={styles.btn}>Submit</button>
       </form>
     </div>
   );

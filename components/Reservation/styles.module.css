@@ -54,6 +54,48 @@
   width: 49% ;
 }
 
+
+
+.btn {
+  border: 2px solid #e87928;
+  border-radius: 7px;
+  color: #e87928;
+  width: max-content;
+  min-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  background-color:#fff !important;
+  text-align: center;
+  display: flex !important;
+  border: 2px solid #e87928 !important;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  outline: none;
+  color: #e87928 !important;
+  background-size: 200% !important;
+  transition: 0.3s ease-out !important;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e87928;
+  color: #ffffff !important;
+  background-position: left !important;
+  border-color: #e87928 !important;
+}
+
+
+
+
+
+
+
+
+
 .form button {
   border-radius: 5px;
   padding: 1rem;
@@ -100,6 +142,13 @@
      margin-top: 0rem;
 
   }
+  .btn {
+    width: 40% !important;
+    min-width: 0px;
+    font-size:1.0rem !important;
+    padding: 0rem;
+
+  }
 
   .form{
     width: 100%;
@@ -115,6 +164,7 @@
   .text2{
     width:100%;
     /* font-size: */
+    font-size:1rem;
     margin-left: 0%;
     margin-right: 0%;
     align-self: center !important;
@@ -128,6 +178,8 @@
 
   }
 
-  
+  .text{
+    font-size:0.8rem;
+  }
 
 }

@@ -41,6 +41,7 @@
   top: 33rem;
   /* top: 82vh; */
 
+  display:none;
   right: 0rem !important;
   position: fixed;
   z-index: 100;
@@ -69,7 +70,6 @@
 
   .iconsColumn2 {
     right: 0rem !important;
-
 
   }
 

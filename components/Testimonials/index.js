@@ -42,8 +42,6 @@ export default class index extends Component {
           </div>
         </div>
 
-      <br />
-
         <br />
         <Carousel
           responsive={responsive}

@@ -95,8 +95,9 @@
 
 @media (max-width: 800px){
   .heading{
-    font-size:2.5rem; 
+    font-size:2.0rem; 
      margin-bottom:0rem;
+     margin-top: 0rem;
 
   }
 
@@ -118,6 +119,12 @@
     margin-right: 0%;
     align-self: center !important;
     display: none;
+
+  }
+
+
+  .wrapper{
+    margin-top: 1rem;
 
   }
 

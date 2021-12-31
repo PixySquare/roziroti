@@ -116,27 +116,23 @@ import P2 from "../public/assets/images/person.png";
 import P3 from "../public/assets/images/person.png";
 export const AboutSection = {
   heading: "About us",
-  text: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. On a serious note, at Rozi Roti, we believe that food shouldn't only be affordable and convenient but also fresh, fun and delicious. And what could be better than home-cooked food served at your disposal. Moreover we ourselves are food lovers & great foodies, hence we believe that cooking and catering is an art that is mastered through experience along with great passion for food. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices. Since Our Food is Your Craving Your Safety is Our Responsibility",
+  text: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. On a serious note, at Rozi Roti, we believe that food shouldn't only be affordable and convenient but also fresh, fun and delicious. And what could be better than home-cooked food served at your disposal. Moreover we ourselves are food lovers & great foodies, hence we believe that cooking and catering is an art that is mastered through experience along with great passion for food. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
   image: A,
   imageAlt: "About rozi roti",
   person1: {
     image: P1,
-    name: "Name Surname",
-  },
-  person2: {
-    image: P2,
-    name: "Name Surname",
+    name: "Shubham ",
   },
   person3: {
     image: P3,
-    name: "Name Surname",
+    name: "Shubham",
   },
 };
 
 // Menu Component
 
 export const MenuSection = {
-  heading: "Our Menu",
+  heading: "Our Specialities",
   text: "At Rozi Roti, you can be assured that we maintain the highest quality in taste and hygiene, so you come back for second servings, everytime. Visit our restaurant or order online to taste the most delicious and homely food that might remind you of the food Amma cooked for you with love!",
   foodItems: [
     {
@@ -201,16 +197,16 @@ export const MenuSectionMobile = {
 
 export const FooterSection = {
   logo: LogoBig,
-  locationText: "sdf",
+  locationText: "near metro pillar no. 822, Hari Vihar, Sector 16, Kakrola, New Delhi, Delhi 110078",
   locationSrc: "sd",
-  mail: "sknjd@gmail.com",
+  mail: "shubham@gmail.com",
   owner: {
-    name: "sdf",
-    mobile: "3456",
+    name: "Shubham ",
+    mobile: "+919997767554",
   },
   manager: {
-    name: "fsd",
-    mobile: "354",
+    name: "Manik Sharma",
+    mobile: "+917775678997",
   },
 };
 
@@ -304,7 +300,7 @@ export const MainCourse = [
   },
   {
     image: PaneerBhurji,
-    name: "kadi Pakod sdfvfssvssvrvrvsvvvva",
+    name: "kadi Pakod",
   },
   {
     image: RajmaMasala,
@@ -428,47 +424,47 @@ export const Testimonials = [
 
 export const cardContent = [
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",
   },
   {
-    src:"https://www.instagram.com/p/CYFBytFODkp/embed",
+    src:"https://www.instagram.com/p/CYG4wicplnT/embed",
 
     imageURL: Food12,
     imageAlt: "Esmae Sissy",

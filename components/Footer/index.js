@@ -5,8 +5,8 @@ function Footer() {
     <>
     <ContactUs />
     <div className={styles.wrapper}>
-      <p>Designed by KSM @ PixySquare</p>
-      <p>@ Gayatri Institute, 2021</p>
+      <p>Designed by PixySquare</p>
+      <p>@ Gayatri, 2021</p>
     </div>
     </>
   );

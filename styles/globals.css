@@ -141,6 +141,17 @@ figure {
 
 
 
+
+
+.heading{
+  font-size:4rem;
+  text-align:center;
+  /* margin-bottom:2rem; */
+}
+
+
+
+
 @media (max-width: 1055px) {
   .onMobile {
     display: block;
@@ -166,6 +177,10 @@ figure {
     display: flex;
     justify-content: center !important;
     width: 13rem;
+  }
+
+  .heading{
+    font-size:2rem;
   }
 
 }

@@ -30,7 +30,7 @@ function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
       
-      <div style={{ textAlign: "center" }} className={styles.heading}>
+      <div style={{ textAlign: "center" }} className="heading">
           {AboutSection.heading}
         </div>
         <div className={styles.containerDivider} >
@@ -42,13 +42,17 @@ function AboutUs() {
       <div className={styles.flexDiv}>
         <div className={styles.leftContainer}>
        
-          <p className={styles.textDiv}>
+          <p className="textDiv">
           {AboutSection.text}
           </p>
+         
         </div>
         <div className={styles.rightContainer}>
           <Image src={AboutSection.image} className="imageDiv" alt={AboutSection.imageAlt} />
         </div>
+        <p className="textDiv2">
+            Your Safety is our responsibility
+          </p>
       </div>
 
       <div className={styles.teamFlex}>

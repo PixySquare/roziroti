@@ -11,7 +11,7 @@ export default function Reservation() {
           </div>
         </div>
       <br />
-      <p className={styles.text2}> Lorem ipsum Loremm ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum</p>
+      <p className={styles.text2}> Celebrate your occasions with the best restaurant in town.</p>
       <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
         <input
           type="text"
@@ -45,7 +45,7 @@ export default function Reservation() {
           name="Mobile Number"
         />
 
-        <p className={styles.text}> We&apos;ll surely contact you shortly after you have submitted</p>
+        <p className={styles.text}> We&apos;ll surely contact you shortly after you have submitted.</p>
         
         <button>Submit</button>
       </form>

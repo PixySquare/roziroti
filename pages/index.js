@@ -18,9 +18,6 @@ export default function Home() {
     <div>
       <Header />
       <IntroComponent />
-      <br />
-      <br />
-      <br />
       <AboutUs />
       <MenuComponent />
       <Gallery />

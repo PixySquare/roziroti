@@ -46,6 +46,7 @@
 
 
 .text{
+  font-size: 1.3rem;
   color:#e87828; 
 }
 
@@ -86,6 +87,7 @@
   margin-left: 20%;
   margin-right: 20%;
   color: #e87928;
+  font-size: 1.8rem;
 
 }
 

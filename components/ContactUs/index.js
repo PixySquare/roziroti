@@ -21,13 +21,12 @@ function ContactUs() {
               <p>{FooterSection.locationText}</p>
               <p>{FooterSection.mail}</p>
             </div>
-            <p>{FooterSection.mail}</p>
             <div>
               <p>
-                {FooterSection.owner.name} - {FooterSection.owner.name}
+                {FooterSection.owner.name} - {FooterSection.owner.mobile}
               </p>
               <p>
-                {FooterSection.manager.name} - {FooterSection.manager.name}
+                {FooterSection.manager.name} - {FooterSection.manager.mobile}
               </p>
             </div>
           </div>

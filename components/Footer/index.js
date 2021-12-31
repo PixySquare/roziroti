@@ -5,7 +5,7 @@ function Footer() {
     <>
     <ContactUs />
     <div className={styles.wrapper}>
-      <p>Designed by PixySquare</p>
+      <p>Designed by <a target="_blank" href="http://pixysquare.github.io" rel="noreferrer">PixySquare</a></p>
       <p>@ Gayatri, 2021</p>
     </div>
     </>

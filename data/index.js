@@ -96,6 +96,38 @@ export const PhuphajiParatha = PP2;
 
 // Gallery
 
+import G1 from "../public/assets/images/gallery/gallery1.jpg";
+export const gallery1 = G1;
+
+import G2 from "../public/assets/images/gallery/gallery2.jpg";
+export const gallery2 = G2;
+
+import G3 from "../public/assets/images/gallery/gallery3.jpg";
+export const gallery3 = G3;
+
+import G4 from "../public/assets/images/gallery/gallery4.jpg";
+export const gallery4 = G4;
+
+import G5 from "../public/assets/images/gallery/gallery5.jpg";
+export const gallery5 = G5;
+
+import G6 from "../public/assets/images/gallery/gallery6.jpg";
+export const gallery6 = G6;
+
+import G7 from "../public/assets/images/gallery/gallery7.jpg";
+export const gallery7 = G7;
+
+import G8 from "../public/assets/images/gallery/gallery8.jpg";
+export const gallery8 = G8;
+
+import G9 from "../public/assets/images/gallery/gallery9.jpg";
+export const gallery9 = G9;
+
+import G10 from "../public/assets/images/gallery/gallery10.jpg";
+export const gallery10 = G10;
+
+// Gallery Section
+
 import PB1 from "../public/assets/images/food/Paneer-Bhurji.jpg";
 export const Photo1 = PB1;
 
@@ -110,6 +142,7 @@ export const Photo4 = SP4;
 
 import SC5 from "../public/assets/images/food/Soya-Chaap.jpg";
 export const Photo5 = SC5;
+
 
 // Divider
 import D from "../public/svg/divider.svg";
@@ -373,90 +406,54 @@ export const Testimonials = [
   {
     Rating: 1,
     Comment:
-      "There's no way to go wrong with this location.Pizza that is consistently good, with a wide variety of toppings and flavours. The service is also quick.",
+      "One of the best restaurant in the area The concept of wooden sitting is awesome And the food is too delicious Also the party arrangements are too good.",
     Writer: "Abhimanyu Rai",
   },
   {
     Rating: 2,
     Comment:
-      "They have a fantastic selection of fresh pizzas. I enjoyed my meal here. ",
+      "Shahi paneer +butter roti+ sirka onion with green chutni delicious  👌  fried momos is also delicious 😋",
     Writer: "Shivani Das",
   },
   {
     Rating: 3,
     Comment:
-      "The staff is always courteous, the rates are decent, and the location is always maintained clean.",
+      "Most Delicious nd awsome variant options.....cheap nd best quality product...😋😋",
     Writer: "Jagjeet Singh",
   },
   {
     Rating: 4,
     Comment:
-      "The pizza here is fantastic, and I highly recommend that you give them a try. They have a wonderful choice of toppings. ",
+      "Awsoooooome food n ambience. Food is so tasty and fantastic that it has been regular point to eat and order food.",
     Writer: "Manpreet",
   },
   {
     Rating: 5,
-    Comment: "Truly pleased with the service. Will visit again. ",
+    Comment: "awsome taste and great atmosphere love the place",
     Writer: "Pallavi kaushik",
   },
   {
     Rating: 6,
     Comment:
-      "I loved their Double cheese margherita. As a cheese fan it was truly a delight. They maintain hygiene and the staff are very polite. ",
+      "Nice place for eating with family...",
     Writer: "Sanjna Khosla",
   },
   {
     Rating: 7,
-    Comment: "Loved the chicken dominatore. Never tasted a pizza so good. ",
+    Comment: "Food quality is too good",
     Writer: "Harshal Kumar",
   },
   {
     Rating: 8,
     Comment:
-      "I didn't believe at first that the pizza will be good but it was worth it. Tasted heavenly it was loaded with cheese melting in my mouth.",
+      "Amazing restaurant",
     Writer: "Ashish kamathi",
   },
   {
     Rating: 9,
     Comment:
-      "White sauce pasta never tasted this good. They give adequate quantity of white sauce and cheese. It was creamy not dry at all. You could feel the spiciness. ",
+      "Awesome restaurant with delicious foods",
     Writer: "Naman Jain",
-  },
-  {
-    Rating: 10,
-    Comment:
-      "The veggie assortment and tomatoe fillet in the red sauce pasta is to vouch for. Very good. ",
-    Writer: "Daksh Gulati",
-  },
-  {
-    Rating: 11,
-    Comment:
-      "The veggie assortment and tomatoe fillet in the red sauce pasta is to vouch for. Very good. ",
-    Writer: "Kunal Tomar",
-  },
-  {
-    Rating: 12,
-    Comment:
-      "I give the great staff & great pizza five stars!!! They work so hard & they cook lovely food. ",
-    Writer: "Srishti Jain",
-  },
-  // {
-  //   Rating: 13,
-  //   Comment: 'There\'s so many \'meh\' quality pizza places around that it can be difficult to weed out the good from the bad. If you\'re looking for great pizza look no further than Costy  casino they\'ve got the best pizza in the town. ',
-  //   Writer: 'Jasmine Kaur',
-
-  // },
-  {
-    Rating: 13,
-    Comment:
-      "Best pizza and pasta around. Fresh vegetables are fabulous and staff is always friendly. ",
-    Writer: "Drishti Jain",
-  },
-  {
-    Rating: 14,
-    Comment:
-      "Awesome pizza crust with fresh ingredients I had the farm house pizza was amazing for my taste buds.",
-    Writer: "Devi Sri Charan",
   },
 ];
 // #D9CABD

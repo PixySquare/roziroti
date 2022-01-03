@@ -45,7 +45,6 @@ function IntroComponent() {
               // height="200"
               // weight="300"
 
-              alt="zomato"
               style={{ color: "#006AFF" }} />
           </a>
         </Link>

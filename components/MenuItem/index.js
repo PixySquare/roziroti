@@ -9,7 +9,7 @@ function MenuItem(props) {
         <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} 
           height={"300px"}
           width={"300px"}
-        src={props.data.image} alt={props.data.name} className="menuImage" />
+        src={props.data.image}  className="menuImage" />
       </div>
       <p>{props.data.name}</p>
     </div>

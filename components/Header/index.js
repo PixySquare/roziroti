@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Icon from "../../public/assets/images/logo.png";
-import { Whatsapp, Instagram, Facebook } from "../../data";
+import { Whatsapp, Instagram, Facebook, LogoMobile } from "../../data";
 import Button from "../../common/Button";
 
 function Header() {
@@ -46,7 +46,7 @@ function Header() {
           // flex: 0.3,
         }}
       >
-        <div
+        {/* <div
           style={{
             minWidth: 20,
             maxWidth: 50,
@@ -55,7 +55,7 @@ function Header() {
             alignItems: "center",
           }}
         >
-        </div>
+        </div> */}
         <Link
           href="/"
           passHref
@@ -68,7 +68,14 @@ function Header() {
             }
           }}
         >
-          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Icon} alt={"title"} height={"60rem"} width={"70rem"} />
+          <div>
+            <div className="onDesktop">
+              <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Icon}  height={"60rem"} width={"70rem"} />
+            </div>
+            <div className="onMobile" styles={{marginLeft:0, marginRight:0}}>
+              <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={LogoMobile}  height={"60rem"} width={"200rem"} />
+            </div>
+          </div>
         </Link>
       </div>
 

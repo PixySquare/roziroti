@@ -2,6 +2,9 @@
 import L from "../public/assets/images/logoBigTransparent.png";
 export const LogoBig = L;
 
+import Lm from "../public/assets/images/bannermobile.jpeg";
+export const LogoMobile = Lm;
+
 // About use
 import abou from "../public/assets/images/aboutus.jpg";
 export const AAboutus = abou;

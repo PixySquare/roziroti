@@ -42,7 +42,9 @@ function IntroComponent() {
           <a target="_blank">
             <Image
               src={Zomato}
-              size="4x"
+              // height="200"
+              // weight="300"
+
               alt="zomato"
               style={{ color: "#006AFF" }} />
           </a>

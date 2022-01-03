@@ -36,52 +36,50 @@ function IntroComponent() {
   return (
     <>
     <CarouselCover/>
-    <div className={styles.iconsColumn}>
-        
-        <Link href={"https://www.facebook.com"}>
-          <a target="_blank">
-            <FontAwesomeIcon
-              icon={faFacebook}
-              size="3x"
-              style={{ color: "#006AFF" }} />
-          </a>
-        </Link>
-        <br />
+      <div className={styles.iconsColumn}>
+          <Link href={"https://www.facebook.com/ROZI-ROTI-102067657838824"}>
+            <a target="_blank">
+              <FontAwesomeIcon
+                icon={faFacebook}
+                size="3x"
+                style={{ color: "#006AFF" }} />
+            </a>
+          </Link>
 
-        <Link href={"https://www.facebook.com"}>
-          <a target="_blank">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              size="3x"
-              style={{ color: "rgb(189, 105, 189)" }} />
-          </a>
-        </Link>
-        <br />
-        <Link href={"https://www.whatsapp.com"}>
-          <a target="_blank" className={styles.nav_item}>
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              size="3x"
-              style={{ color: "#25D366" }} />
-          </a>
-        </Link>
+          <Link href={"https://www.instagram.com/rozii_roti/"}>
+            <a target="_blank">
+              <FontAwesomeIcon
+                icon={faInstagram}
+                size="3x"
+                style={{ color: "rgb(189, 105, 189)" }} />
+            </a>
+          </Link>
+          <Link href={"https://api.whatsapp.com/send?phone=8368471403"}>
+            <a target="_blank" className={styles.nav_item}>
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                size="3x"
+                style={{ color: "#25D366" }} />
+            </a>
+          </Link>
       </div>
 
-      <div className={styles.iconsColumn2 + " onMobile"}>
 
-      <Link href={"https://www.zomato.com"}>
-          <a target="_blank">
-            <Image
-              src={Zomato}
-              size="3x"
-              alt="zomato"
-              style={{ color: "#006AFF" }} />
-          </a>
-        </Link>
-        <br />
-        
+      {/* <div className={styles.iconsColumn2 + " onMobile"}>
 
-        <Link href={"https://www.facebook.com"}>
+        <Link href={"https://www.zomato.com"}>
+            <a target="_blank">
+              <Image
+                src={Zomato}
+                size="3x"
+                alt="zomato"
+                style={{ color: "#006AFF" }} />
+            </a>
+          </Link>
+          <br />
+          
+
+        <Link href={"https://www.facebook.com/ROZI-ROTI-102067657838824"}>
           <a target="_blank">
             <FontAwesomeIcon
               icon={faFacebook}
@@ -91,7 +89,7 @@ function IntroComponent() {
         </Link>
         <br />
 
-        <Link href={"https://www.facebook.com"}>
+        <Link href={"https://www.instagram.com/rozii_roti/"}>
           <a target="_blank">
             <FontAwesomeIcon
               icon={faInstagram}
@@ -100,7 +98,7 @@ function IntroComponent() {
           </a>
         </Link>
         <br />
-        <Link href={"https://www.whatsapp.com"}>
+        <Link href={"https://api.whatsapp.com/send?phone=8368471403"}>
           <a target="_blank" className={styles.nav_item}>
             <FontAwesomeIcon
               icon={faWhatsapp}
@@ -108,7 +106,7 @@ function IntroComponent() {
               style={{ color: "#25D366" }} />
           </a>
         </Link>
-      </div>
+      </div> */}
     </>
   );
 }

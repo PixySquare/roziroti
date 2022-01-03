@@ -138,11 +138,11 @@ export const AboutSection = {
   imageAlt: "About rozi roti",
   person1: {
     image: P1,
-    name: "Shubham ",
+    name: "Shubham dubey",
   },
   person3: {
     image: P3,
-    name: "Shubham",
+    name: "Shubhendu Dubey",
   },
 };
 
@@ -232,14 +232,14 @@ export const FooterSection = {
   logo: LogoBig,
   locationText: "near metro pillar no. 822, Hari Vihar, Sector 16, Kakrola, New Delhi, Delhi 110078",
   locationSrc: "sd",
-  mail: "shubham@gmail.com",
+  mail: "roziroti2021@gmail.com",
   owner: {
-    name: "Shubham ",
-    mobile: "+919997767554",
+    name: "Shubham dubey ",
+    mobile: "+919354206408",
   },
   manager: {
-    name: "Manik Sharma",
-    mobile: "+917775678997",
+    name: "Shubhendu Dubey",
+    mobile: "+919354206408",
   },
 };
 

@@ -126,9 +126,9 @@ export const Food1 = Food12;
 // About us
 
 import A from "../public/assets/images/about.png";
-import P1 from "../public/assets/images/person.png";
-import P2 from "../public/assets/images/person.png";
-import P3 from "../public/assets/images/person.png";
+import P1 from "../public/assets/images/owner.jpeg";
+import P2 from "../public/assets/images/manager.jpeg";
+// import P3 from "../public/assets/images/person.png";
 export const AboutSection = {
   heading: "About us",
   text: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. On a serious note, at Rozi Roti, we believe that food shouldn't only be affordable and convenient but also fresh, fun and delicious. And what could be better than home-cooked food served at your disposal. Moreover we ourselves are food lovers & great foodies, hence we believe that cooking and catering is an art that is mastered through experience along with great passion for food. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
@@ -138,10 +138,10 @@ export const AboutSection = {
   imageAlt: "About rozi roti",
   person1: {
     image: P1,
-    name: "Shubham dubey",
+    name: "Shubham Dubey",
   },
   person3: {
-    image: P3,
+    image: P2,
     name: "Shubhendu Dubey",
   },
 };

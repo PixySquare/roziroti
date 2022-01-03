@@ -34,7 +34,7 @@ function AboutUs() {
         </div>
         <div className={styles.containerDivider} >
           <div className="DividerMid">
-            <Image src={Divider}  alt={"main menu"} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider} />
           </div>
         </div>
         <br />
@@ -48,7 +48,7 @@ function AboutUs() {
           </p>
         </div>
         <div className={styles.rightContainer}>
-          <Image src={AboutSection.image} className="imageDiv" alt={AboutSection.imageAlt} />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={AboutSection.image} className="imageDiv"  />
         </div>
         <p className={  " onMobile textDiv2"}>
             Your Safety is our responsibility
@@ -57,7 +57,7 @@ function AboutUs() {
 
       <div className={styles.teamFlex}>
             <TeamCard data={AboutSection.person1} />
-            <TeamCard data={AboutSection.person3} />
+            {/* <TeamCard data={AboutSection.person3} /> */}
       </div>
       
 

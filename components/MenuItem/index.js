@@ -6,7 +6,7 @@ function MenuItem(props) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageDiv}>
-        <Image 
+        <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} 
           height={"300px"}
           width={"300px"}
         src={props.data.image} alt={props.data.name} className="menuImage" />

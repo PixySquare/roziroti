@@ -6,10 +6,9 @@ function ContactUs() {
   return (
     <div className={styles.container}>
       <div className={styles.imageLogoDiv}>
-        <Image
+        <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "}
           className={styles.image}
           src={FooterSection.logo}
-          alt={"logo image"}
           height={350}
           width={350}
         />
@@ -25,9 +24,9 @@ function ContactUs() {
               <p style={{ margin: "0" }}>
               <b>{FooterSection.owner.name}</b> - {FooterSection.owner.mobile}
               </p>
-              <p style={{ margin: "0" }}>
+              {/* <p style={{ margin: "0" }}>
                 <b>{FooterSection.manager.name}</b> - {FooterSection.manager.mobile}
-              </p>
+              </p> */}
             </div>
           </div>
           <div className={styles.map}>

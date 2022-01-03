@@ -7,12 +7,12 @@ export default function Reservation() {
       <div className={styles.heading}>Reservation</div>
       <div className={styles.containerDivider} >
           <div className="DividerMidT">
-            <Image src={Divider}  alt={"main menu"} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider}  alt={"main menu"} />
           </div>
         </div>
       <br />
       <p className={styles.text2}> Celebrate your occasions with the best restaurant in town.</p>
-      <form className={styles.form} action="https://formsubmit.co/heemankv@gmail.com" method="POST" >
+      <form className={styles.form} action="https://formsubmit.co/roziroti2021@gmail.com" method="POST" >
         <input
           type="text"
           placeholder="Name"

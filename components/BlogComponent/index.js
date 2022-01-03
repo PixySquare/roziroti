@@ -6,7 +6,7 @@ function BlogComponent() {
     <div className={styles.wrapper}>
       <h1>Blogs</h1>
       <div className={styles.imageDiv}>
-        <Image src={img} />
+        <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} />
       </div>
       <div className={styles.text}>
         <p>

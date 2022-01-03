@@ -38,7 +38,7 @@ export default class index extends Component {
 
         <div className={styles.containerDivider} >
           <div className="DividerMidT">
-            <Image src={Divider}  alt={"main menu"} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider}  alt={"main menu"} />
           </div>
         </div>
 

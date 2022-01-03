@@ -18,7 +18,7 @@ function menu() {
       <div>
         <div className={styles.heading2}>Main Course</div>
         <div className="Divider">
-          <Image src={Divider} alt={"main menu"} />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider} alt={"main menu"} />
         </div>
         <div className={styles.menuFlex}>
 
@@ -31,7 +31,7 @@ function menu() {
       <div>
         <div className={styles.heading2}>Chinese Choice</div>
         <div className="Divider">
-          <Image src={Divider} alt={"main menu"} />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider} alt={"main menu"} />
         </div>
         <div className={styles.menuFlex}>
           {MainCourse.map((item, index) => (
@@ -42,7 +42,7 @@ function menu() {
 
       <div className={styles.heading2}>Snacks and More</div>
       <div className="Divider">
-        <Image src={Divider} alt={"main menu"} />
+        <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider} alt={"main menu"} />
       </div>
       <div className={styles.menuFlex}>
         {MainCourse.map((item, index) => (

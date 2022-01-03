@@ -68,7 +68,7 @@ function Header() {
             }
           }}
         >
-          <Image className={styles.image} src={Icon} alt={"title"} height={"60rem"} width={"70rem"} />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Icon} alt={"title"} height={"60rem"} width={"70rem"} />
         </Link>
       </div>
 
@@ -256,17 +256,17 @@ function Header() {
               <Button text="Order Online"  href={"https://www.zomato.com"} ></Button>
               {/* <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={60} height={60}/>
+                  <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link>
               <Link href={"https://www.facebook.com"}>
                 <a target="_blank">
-                  <Image className={styles.image} src={Facebook} alt={"Respct.Club"} width={60} height={60}/>
+                  <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Facebook} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link>
               <Link href={"https://www.whatsapp.com"}>
                 <a target="_blank" className={styles.nav_item}>
-                  <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={60} height={60}/>
+                  <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} className={styles.image} src={Instagram} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link> */}
             </div>

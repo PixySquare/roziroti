@@ -10,27 +10,27 @@ function Gallery() {
       <div className={styles.heading}>Gallery</div>
       <div className={styles.containerDivider}>
         <div className="DividerMid">
-          <Image src={Divider} alt={"main menu"} />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider} alt={"main menu"} />
         </div>
       </div>
 
       <div className={styles.gallery}>
         <figure className="gallery__item gallery__item--1">
-          <Image src={img} alt="Gallery image 1" className="gallery__img" />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 1" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--2">
-          <Image src={img} alt="Gallery image 2" className="gallery__img" />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 2" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--3">
-          <Image src={img} alt="Gallery image 3" className="gallery__img" />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 3" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--4">
-          <Image src={img} alt="Gallery image 4" className="gallery__img" />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 4" className="gallery__img" />
         </figure>
         <figure className="gallery__item gallery__item--5">
           <Link href={"/gallery"} passHref>
             <div className=" gallery__img">
-              <Image
+              <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "}
                 src={img}
                 alt="Gallery image 4"
                 className="gallery_img_opacity"
@@ -40,10 +40,10 @@ function Gallery() {
             </div>
           </Link>
 
-          {/* <Image src={img} alt="Gallery image 5" className="gallery__img" /> */}
+          {/* <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 5" className="gallery__img" /> */}
         </figure>
         {/* <figure className="gallery__item gallery__item--6">
-          <Image src={img} alt="Gallery image 6" className="gallery__img" />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={img} alt="Gallery image 6" className="gallery__img" />
         </figure> */}
       </div>
     </div>

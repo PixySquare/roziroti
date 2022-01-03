@@ -40,7 +40,7 @@ function IntroComponent() {
 
         <Link href={"https://www.zomato.com"}>
           <a target="_blank">
-            <Image
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "}
               src={Zomato}
               // height="200"
               // weight="300"
@@ -82,7 +82,7 @@ function IntroComponent() {
 
         <Link href={"https://www.zomato.com"}>
             <a target="_blank">
-              <Image
+              <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "}
                 src={Zomato}
                 size="3x"
                 alt="zomato"

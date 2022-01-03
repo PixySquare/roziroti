@@ -15,16 +15,16 @@ function index(props) {
         showThumbs={false} stopOnHover={true}  animationHandler='fade' transitionTime={1500}
         showArrows={true} emulateTouch={true} swipable={false} >
         <div>
-          <Image src={Banner1} height={height} width={width}
-            alt="legend 1"/>
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Banner1} height={height} width={width}
+            />
         </div>
         <div>
-          <Image src={Banner2} height={height} width={width}
-            alt="legend 2"/>
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Banner2} height={height} width={width}
+            />
         </div>
         <div>
-          <Image src={Banner3}  height={height} width={width}
-            alt="legend 1"/>
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Banner3}  height={height} width={width}
+            />
         </div>
 
       </Carousel>

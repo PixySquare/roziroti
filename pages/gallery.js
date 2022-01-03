@@ -22,36 +22,36 @@ function menu() {
 
       <div className={styles.row}>
         <div className={styles.column}>
-            <Image src={RajmaMasala} style={{width: '100%'}} />
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
         </div>
         <div className={styles.column}>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
         </div>
         <div className={styles.column}>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro}/>
-            <Image src={RajmaMasala}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala}/>
         </div>
         <div className={styles.column}>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}}/>
-            <Image src={intro} style={{width: '100%'}} />
-            <Image src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={intro} style={{width: '100%'}} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={RajmaMasala} style={{width: '100%'}}/>
         </div>
     </div>
     <br />

@@ -9,7 +9,7 @@ export default function MenuCard({src, alt, width, style, height, className}) {
       e.preventDefault();
     }}>
       <div style={{borderRadius: '0px', overflow: 'hidden'}}>
-        <Image src={src} style={style}
+        <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={src} style={style}
           alt={alt} width={width}
           height={height} className={className} />
       </div>

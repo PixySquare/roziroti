@@ -43,12 +43,12 @@ function AboutUs() {
           <p className="textDiv onDesktop">
           {AboutSection.text}
           </p>
-          <p className="textDiv onMobile">
+          <h className="textDiv onMobile">
           {AboutSection.textM}
-          </p>
+          </h>
         </div>
         <div className={styles.rightContainer}>
-          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={AboutSection.image} className="imageDiv"  />
+          <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={AboutSection.image} className="imageDiv"  height="400" width="600"  />
         </div>
         <p className={  " onMobile textDiv2"}>
             Your Safety is our responsibility

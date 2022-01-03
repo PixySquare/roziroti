@@ -2,6 +2,10 @@
 import L from "../public/assets/images/logoBigTransparent.png";
 export const LogoBig = L;
 
+// About use
+import abou from "../public/assets/images/aboutus.jpg";
+export const AAboutus = abou;
+
 // Banner
 import B1 from "../public/assets/images/banner/1.jpg";
 export const Banner1 = B1;
@@ -134,11 +138,12 @@ export const AboutSection = {
   text: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. On a serious note, at Rozi Roti, we believe that food shouldn't only be affordable and convenient but also fresh, fun and delicious. And what could be better than home-cooked food served at your disposal. Moreover we ourselves are food lovers & great foodies, hence we believe that cooking and catering is an art that is mastered through experience along with great passion for food. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
   textM: "A love for food and a very special attachment to the coziness of home are the two central components of Rozi Roti. We're a bunch of people who are extremely passionate about food. We love to eat and feed just as well. Rozi Roti brings to you sumptuous yet nutritious meals prepared by very talented chefs from the freshest seasonal ingredients and delivered to your workplace with unswerving promptness. And the best bit is affordable prices, since our food is your Craving.",
   
-  image: A,
+  image: AAboutus,
   imageAlt: "About rozi roti",
   person1: {
-    image: P1,
+    image: P2,
     name: "Shubham Dubey",
+    description: " Owner and Founder"
   },
   person3: {
     image: P2,
@@ -230,7 +235,7 @@ export const MenuSectionMobile = {
 
 export const FooterSection = {
   logo: LogoBig,
-  locationText: "near metro pillar no. 822, Hari Vihar, Sector 16, Kakrola, New Delhi, Delhi 110078",
+  locationText: "Near Metro pillar no. 822, Hari Vihar, Sector 16, Kakrola, New Delhi, Delhi 110078",
   locationSrc: "sd",
   mail: "roziroti2021@gmail.com",
   owner: {
@@ -238,7 +243,7 @@ export const FooterSection = {
     mobile: "+919354206408",
   },
   manager: {
-    name: "Shubhendu Dubey",
+    name: "Contact us",
     mobile: "+919354206408",
   },
 };

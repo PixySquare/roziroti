@@ -11,7 +11,7 @@ export default function Reservation() {
           </div>
         </div>
       <br />
-      <p className={styles.text2}> Celebrate your occasions with the best restaurant in town.</p>
+      <div className={styles.text2}> Celebrate your occasions with the best restaurant in town.</div>
       <form className={styles.form} action="https://formsubmit.co/roziroti2021@gmail.com" method="POST" >
         <input
           type="text"

@@ -7,7 +7,7 @@ export default function Reservation() {
       <div className={styles.heading}>Reservation</div>
       <div className={styles.containerDivider} >
           <div className="DividerMidT">
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider}  alt={"main menu"} />
+            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={Divider}  />
           </div>
         </div>
       <br />

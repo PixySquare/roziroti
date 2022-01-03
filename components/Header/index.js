@@ -246,13 +246,14 @@ function Header() {
                   }
                 }}
               >
-                <div className={styles.nav_item}>See more</div>
+                <div className={styles.nav_item }>See more</div>
               </a>
 
 
             </div>
+            <div className=" onDesktop">
             <div className={styles.socials}>
-              <Button text="Order Online"  href={"https://www.zomato.com"}></Button>
+              <Button text="Order Online"  href={"https://www.zomato.com"} ></Button>
               {/* <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
                   <Image className={styles.image} src={Whatsapp} alt={"Respct.Club"} width={60} height={60}/>
@@ -268,6 +269,7 @@ function Header() {
                   <Image className={styles.image} src={Instagram} alt={"Respct.Club"} width={60} height={60}/>
                 </a>
               </Link> */}
+            </div>
             </div>
           </div>
         )}

@@ -37,11 +37,22 @@ function IntroComponent() {
     <>
     <CarouselCover/>
       <div className={styles.iconsColumn}>
+
+        <Link href={"https://www.zomato.com"}>
+          <a target="_blank">
+            <Image
+              src={Zomato}
+              size="4x"
+              alt="zomato"
+              style={{ color: "#006AFF" }} />
+          </a>
+        </Link>
+
           <Link href={"https://www.facebook.com/ROZI-ROTI-102067657838824"}>
             <a target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
-                size="3x"
+                size="2x"
                 style={{ color: "#006AFF" }} />
             </a>
           </Link>
@@ -50,7 +61,7 @@ function IntroComponent() {
             <a target="_blank">
               <FontAwesomeIcon
                 icon={faInstagram}
-                size="3x"
+                size="2x"
                 style={{ color: "rgb(189, 105, 189)" }} />
             </a>
           </Link>
@@ -58,7 +69,7 @@ function IntroComponent() {
             <a target="_blank" className={styles.nav_item}>
               <FontAwesomeIcon
                 icon={faWhatsapp}
-                size="3x"
+                size="2x"
                 style={{ color: "#25D366" }} />
             </a>
           </Link>

@@ -219,7 +219,7 @@ export const MenuSection = {
     },
     {
       image: PhuphajiParatha,
-      name: "Phophaji Paratha",
+      name: "Fufaji Paratha",
     },
     {
       image: TandooriChai,

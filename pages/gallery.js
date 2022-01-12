@@ -22,26 +22,26 @@ function menu() {
 
       <div className={styles.row}>
         <div className={styles.column}>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery8} style={{width: '100%'}} />
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery4} style={{width: '100%'}}/>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery5} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery8} style={{width: '100%'}} />
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery4} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery5} style={{width: '100%'}}/>
 
         </div>
         <div className={styles.column}>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery1} style={{width: '100%'}}/>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery9} style={{width: '100%'}}/>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery10} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery1} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery9} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery10} style={{width: '100%'}}/>
 
 
         </div>
         <div className={styles.column}>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery6} style={{width: '100%'}}/>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery7} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery6} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery7} style={{width: '100%'}}/>
 
         </div>
         <div className={styles.column}>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery2} style={{width: '100%'}}/>
-            <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery3} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery2} style={{width: '100%'}}/>
+            <Image alt={"Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "} src={gallery3} style={{width: '100%'}}/>
         </div>
     </div>
     <br />

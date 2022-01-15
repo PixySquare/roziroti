@@ -38,7 +38,7 @@ function IntroComponent() {
     <CarouselCover/>
       <div className={styles.iconsColumn}>
 
-        <Link href={"https://www.zomato.com"}>
+        <Link href={"https://www.zomato.com/ncr/rozi-roti-sector-16-dwarka-new-delhi/order"}>
           <a target="_blank">
             <Image alt={"Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "}
               src={Zomato}

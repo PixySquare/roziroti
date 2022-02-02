@@ -273,7 +273,7 @@ export const FooterSection = {
   logo: LogoBig,
   locationText: "Near Metro pillar no. 822, Hari Vihar, Sector 16, Kakrola, New Delhi, Delhi 110078",
   locationSrc: "sd",
-  mail: "contactus@gayatrieats.com",
+  mail: "reachus@gayatrieats.com",
   owner: {
     name: "Shubham dubey ",
     mobile: "+919354206408",

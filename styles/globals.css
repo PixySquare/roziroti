@@ -195,6 +195,11 @@ figure {
 @media (max-width: 1055px) {
   .onMobile {
     display: block;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
   }
 
   .onDesktop {
@@ -220,7 +225,7 @@ figure {
   }
 
   .heading{
-    font-size:2rem;
+    font-size:3rem;
   }
 
   .leftcenter{

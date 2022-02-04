@@ -55,8 +55,10 @@ function AboutUs() {
         </p>
       </div>
 
-      <div className={styles.teamFlex}>
+      <div className={`${styles.teamFlex}`}>
+      
             <TeamCard data={AboutSection.person1} />
+          
             {/* <TeamCard data={AboutSection.person3} /> */}
       </div>
       

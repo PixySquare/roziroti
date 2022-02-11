@@ -7,7 +7,7 @@ import {
   faWhatsapp,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-
+import swiggy from "../../public/svg/icons8-swiggy.svg";
 import Zomato from "../../public/svg/zomato.svg";
 import Link from "next/link";
 import { Banner1, Banner2, Banner3, Banner4 } from "../../data";
@@ -39,6 +39,29 @@ function IntroComponent() {
     <>
       <CarouselCover />
       <div className={styles.iconsColumn}>
+
+      {/* <div className="swiggylink"> */}
+      <Link
+          href={
+            "https://www.zomato.com/ncr/rozi-roti-sector-16-dwarka-new-delhi/order"
+          }
+        >
+          <a target="_blank">
+            <Image
+              alt={
+                "Gayatri eats food roziroti  dwarka photo check out restaraunt now  www.gayatrieats.com "
+              }
+              src={swiggy}
+              // height="80"
+              // weight="200"   
+
+              style={{ color: "#006AFF" }}
+            />
+          </a>
+        </Link>
+      {/* </div> */}
+
+
         <Link
           href={
             "https://www.zomato.com/ncr/rozi-roti-sector-16-dwarka-new-delhi/order"
@@ -57,7 +80,7 @@ function IntroComponent() {
             />
           </a>
         </Link>
-
+       
         <Link href={"https://www.facebook.com/ROZI-ROTI-102067657838824"}>
           <a target="_blank">
             <FontAwesomeIcon

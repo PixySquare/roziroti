@@ -11,6 +11,7 @@ import IntroComponent from "../components/IntroComponent";
 import Testimonials from "../components/Testimonials";
 import Reservation from "../components/Reservation";
 import Posts from "../components/Posts";
+import EmbedSocialWidget from "../components/Instaembedd/EmbedSocialWidget";
 
 export default function Home() {
   return (
@@ -35,7 +36,8 @@ export default function Home() {
       <br />
       <Reservation />
       <br />
-      <Posts />
+      {/* <Posts /> */}
+      <EmbedSocialWidget refId="d0cb12f41272637975008b2ab6415d654e3ac3f5"/>
       <Footer />
     </div>
   );
